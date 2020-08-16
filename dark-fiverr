@@ -1,0 +1,220 @@
+/*
+
+------------The colors are divided into four main patterns. 
+---background-color
+---hover color (:hover)
+---border-color
+---text color (color)
+
+*/
+
+/*---------------------------------------- Header ----------------------------------------*/
+.header-row-wrapper,
+.nav-popover-items-content,
+.toggler-popover aside.bottom .tip:after {
+    background-color: #181A1B;
+}
+
+.fiverr-header .header-row-wrapper {
+    border-bottom: 1px solid #373C3E;
+}
+
+.toggler-popover aside {
+    border: 1px solid #373C3E;
+}
+
+.fiverr-nav .nav-popover-items-content .divider {
+    border-top: 1px solid #373C3E;
+}
+
+/*---------------------------------------- Header Ends ----------------------------------------*/
+
+/*---------------------------------------- Profile Page --------------------------------------------*/
+.seller-card,
+.status-filter-bar,
+.fiverr-learn,
+.mp-seller-profile article,
+.user-page-reviews-package>:nth-child(n),
+.gig-card-base:not(.list-view-card),
+.mp-seller-profile .form-thin article,
+.seller-card .seller-link,
+.gig-card-base h3,
+.reviews-package .review-description p,
+.reviews-package .country .country-name,
+.mp-seller-profile .form-thin article .inner-row.social-account ul li.is-selected,
+.mp-seller-profile .form-thin article .inner-row.social-account ul li.is-selected span,
+.mp-seller-profile .form-thin article .inner-row.skills .skill-bubble,
+.mp-seller-profile .form-thin article .inner-row.skills .recommendation-wrapper .skill-bubble,
+.mp-seller-profile .form-thin article .inner-row .items-list .title {
+    background-color: #181A1B;
+    border-color: rgb(55, 59, 62);
+    color: #cdcdc8;
+}
+
+.mp-seller-profile .form-thin article .inner-row.social-account ul li:hover,
+.mp-seller-profile .form-thin article .inner-row.skills .skill-bubble:hover,
+.mp-seller-profile .form-thin article .inner-row.skills .skill-bubble .animate {
+    background-color: rgb(27, 29, 30);
+    border-color: rgb(55, 59, 62);
+
+
+}
+
+.status-filter-bar li.selected-filter,
+h5,
+.text-display-5,
+.mp-seller-profile .form-thin article h3 {
+    color: #d9d9d9;
+}
+
+/*---------------------------------------- Profile Page Ends ----------------------------------------*/
+
+/*---------------------------------------- Inbox Styling ----------------------------------------*/
+.inbox_perseus,
+.contacts-container header,
+.contacts-list>.contact.active-contact,
+.route,
+#conversation>header,
+.textarea-container textarea .message-flow .content>div .message:hover,
+.message-box,
+.contacts-container,
+.contacts-list>.contact,
+.message-box,
+.message-box .textarea-container textarea,
+.message-box .message-uploader-container,
+.action-offer,
+.search-bar-package form input {
+    background-color: #1D1F20;
+}
+
+.route,
+#conversation>header,
+.contacts-list>.contact,
+.contacts-container header,
+.contacts-container,
+.message-box .message-uploader-container,
+.contact-label,
+.search-bar-package form input,
+.details-pane .orders .order-card,
+.details-pane {
+    border-color: rgb(55, 59, 62)
+}
+
+
+/*hovering color*/
+.contacts-list>.contact:hover,
+.details-pane .orders .order-card:hover,
+.message:hover {
+    background-color: rgb(27, 29, 30);
+}
+
+
+#conversation .message-flow .message-content .message-body,
+.message .sender,
+.contacts-list>.contact p,
+.fiverr-message h6,
+.fiverr-message p,
+.fiverr-message a,
+.contacts-list>.contact strong,
+.fiverr-message button,
+.button-link,
+.related-to a .text-wrapper p,
+.related-to a .text-wrapper p,
+.details-pane .summary .username,
+.user-level,
+.details-pane li,
+.details-pane .orders .active-order,
+.details-pane .orders .order-card .order-info .order-status small,
+.details-pane .orders .order-card .order-info .delivery-time span,
+.fa-clock-o:before,
+.message-box .textarea-container textarea,
+.details-pane h2 #conversation>header .upper-row .user-info h,
+#conversation>header .upper-row .user-info h1,
+.contact-label {
+    color: #cdcdc8;
+}
+
+/*---------------------------------------- Inbox styling Ends ----------------------------------------*/
+
+/*---------------------------------------- Request Page ---------------------------------------------*/
+.mp-box {
+    background-color: #1D1F20;
+}
+
+.date,
+.see-more,
+.profile-40,
+.applications,
+.hidden-action,
+.js-filter-title,
+.sort-by,
+.db-new-main-table table thead tr,
+.db-new-main-table>table>tbody>tr>td,
+.db-load-more a,
+.tags-standard.tags-white-bg a,
+.tags-standard.tags-white-bg span {
+    background-color: #181A1B;
+}
+
+body.pro-experience .db-new-main-table table tbody tr:hover td,
+.db-load-more a:hover {
+    background-color: rgb(30, 33, 34);
+}
+
+.db-load-more a,
+.tags-standard.tags-white-bg a,
+.tags-standard.tags-white-bg span {
+    border: 1px solid #373C3E;
+}
+
+.db-new-main-table table td,
+.db-new-main-table table thead tr.header-filter td,
+.alt,
+.db-requests .offers-left,
+input[type=search] {
+    border-top: 1px solid #373C3E;
+    border-bottom: 1px solid #373C3E;
+}
+
+.db-new-main-table table td:first-child {
+    border-left: 1px solid #373C3E;
+}
+
+.db-new-main-table table td:last-child {
+    border-right: 1px solid #373C3E;
+}
+
+.db-new-filters .tabs {
+    border-top: 1px solid #373C3E;
+}
+
+.db-new-main-table table td,
+.db-new-main-table table thead tr.header-filter td,
+.alt,
+.db-requests .offers-left,
+input[type=search],
+.tags-standard.tags-white-bg a,
+.tags-standard.tags-white-bg span {
+    color: #cdcdc8;
+}
+
+.db-new-filters .tabs li a:hover {
+    color: #cdcdc8;
+}
+
+/*---------------------------------------- Request Page Ends ----------------------------------------*/
+
+/*---------------------------------------- Footer ---------------------------------------------*/
+.site-footer {
+    background-color: #1D1F20;
+}
+
+.footer-package .footer-collapsibles:after {
+    background-color: #373C3E;
+}
+
+.site-footer {
+    border-top: 1px solid #373C3E;
+}
+
+/*---------------------------------------- Footer Ends ----------------------------------------*/
