@@ -7,15 +7,19 @@
 
 */
 * {
-	--background: #181A1B;
+	--header-background: #181A1B;
+	--card-bg:#181A1B;
+	--background:#1D1F20;
 	--active: #1dbf73;
-	--border_color:rgb(55, 59, 62);
-	--text-color:#949494
+	--border-color:rgb(55, 59, 62);
+	--text-color:#949494;
+	--text-azure:#1fd0b6;
 }
 
 body {
     color: var(--text-color);
 }
+
 
 /* --------------------------------------- Scroll Bars ---------------------------------  */
 ::-webkit-scrollbar {
@@ -33,6 +37,7 @@ body {
 }
 
 /* -------------------------------------------------------------------------------------- */
+
 /* ---------------------------------- profile page ------------------------------- */
 .standalone-nav-bar {
 	background-color: var(--background);
@@ -41,19 +46,26 @@ body {
 	background-color: var(--background);
 }
 .standalone-nav-bar {
-	border-bottom: 1px solid var(--border_color);
+	border-bottom: 1px solid var(--border-color);
+}
+.seller-card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+    color: #cdcdc8;
 }
 .seller-card .user-stats {
-    border-top: 1px solid var(--border_color);
+    border-top: 1px solid var(--border-color);
 }
 .user-page-perseus .seller-profile {
-    border: 1px solid var(--border_color);
+    border: 1px solid var(--border-color);
+	    background: var(--card-bg);
+
 }
 .user-page-perseus .seller-profile>div {
-    border-bottom: 1px solid var(--border_color);
+    border-bottom: 1px solid var(--border-color);
 }
 .user-page-perseus .seller-profile .skills li {
-    border: 1px solid var(--border_color);
+    border: 1px solid var(--border-color);
 }
 .user-page-perseus {
 	background: var(--background);
@@ -62,17 +74,23 @@ body {
     color: var(--text-color);
 }
 h3, .text-display-3 {
-    color: #1fd0b6;
+    color: var(--text-azure);
+}
+#main-wrapper {
+    background: var(--background);
+}
+.mp-seller-profile .form-thin article>form {
+    border-bottom: 1px solid var(--border-color);
 }
 
 /* gigcards */
 .gig-wrapper.card {
-    background-color: var(--background);
-    border: 1px solid var(--border_color);
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
 }
 .gig-wrapper.card footer {
     clear: both;
-    border-top: 1px solid var(--border_color);
+    border-top: 1px solid var(--border-color);
 }
 .gig-wrapper h3 a {
     cursor: pointer;
@@ -81,6 +99,10 @@ h3, .text-display-3 {
 
 .gig-wrapper .seller-info .seller-name a {
     color: var(--text-color);
+}
+.db-new-main-table table td, .db-new-main-table table thead tr.header-filter td, .alt, .db-requests .offers-left, input[type=search] {
+    border-top: 1px solid var(--card-bg) !important;
+    border-bottom: 1px solid var(--card-bg) !important;
 }
 
 /* ---------------------------------------------------------------------------------------- */
@@ -95,6 +117,45 @@ h3, .text-display-3 {
 	color: var(--active);
 	cursor: default;
 }
+.db-new-filters .tabs li a.sel, .db-new-filters .tabs li a:hover, .db-new-filters .tabs li a:active {
+    color: var(--active);
+}
+.db-new-filters .tabs {
+    border-top: 1px solid var(--background);
+}
+
+.db-new-filters .tabs {
+    border-bottom: 1px var(--border-color) solid;
+    position: relative;
+}
+
+.db-new-filters .tabs li.pointer {
+    border-bottom: 10px solid var(--border-color);
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+.db-new-filters .tabs li.pointer:before {
+    border-bottom: 9px solid var(--border-color);
+    border-right: 9px solid transparent;
+    border-left: 9px solid transparent;
+}
+.dropdown-menu {
+    background-color: var(--background);
+    border: 1px var(--border-color) solid;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgba(0,0,0,.1);
+}
+.db-new-main-table table thead tr.header-filter .dropdown .dropdown-toggle {
+    border-color: var(--border-color);
+}
+.fake-dropdown .dropdown-toggle {
+    background-color: var(--background);
+    color: var(--text-color);
+    border: 1px var(--border-color) solid;
+}
+.db-new-main-table table td .dropdown-toggle, .db-new-main-table table td .dropdown-toggle.no-content {
+    border-color: var(--border-color);
+}
 /* ----------------------------- */
 
 
@@ -102,7 +163,7 @@ h3, .text-display-3 {
 .header-row-wrapper,
 .nav-popover-items-content,
 .toggler-popover aside.bottom .tip:after {
-	background-color: var(--background);
+	background-color: var(--header-background);
 }
 
 .fiverr-header .header-row-wrapper {
@@ -120,9 +181,9 @@ h3, .text-display-3 {
 /* navigation bar drop down  */
 .categories-menu-package .categories>li.open>ul {
     background: var(--background);
-    border: 1px solid var(--border_color);
-    -webkit-box-shadow: 0 1px 3px var(--border_color);
-    box-shadow: 0 1px 3px var(--border_color);
+    border: 1px solid var(--border-color);
+    -webkit-box-shadow: 0 1px 3px var(--border-color);
+    box-shadow: 0 1px 3px var(--border-color);
 }
 .categories-menu-package .sub-menu-item.linked-title>p {
     color: var(--text-color);
@@ -136,16 +197,16 @@ h3, .text-display-3 {
     background: var(--background);
 }
 .popover-notifications-drawer .drawer-item:not(:last-child) {
-    border-bottom: 1px solid var(--border_color);
+    border-bottom: 1px solid var(--border-color);
 }
 .popover-notifications-drawer .wrapper>header {
-    border-bottom: 1px solid var(--border_color);
+    border-bottom: 1px solid var(--border-color);
 }
 .toggler-popover aside {
     background-color: var(--background);
     position: absolute;
     z-index: 1001;
-    border: 1px solid var(--border_color);
+    border: 1px solid var(--border-color);
     border-radius: 3px;
     -webkit-box-shadow: 0 0 5px 1px rgba(0,0,0,.05);
     box-shadow: 0 0 5px 1px rgba(0,0,0,.05);
@@ -158,12 +219,12 @@ h3, .text-display-3 {
 /* the triangle */
 .toggler-popover aside.bottom .tip:after {
     top: 1px;
-    border-bottom-color: var(--border_color);
+    border-bottom-color: var(--border-color);
 }
 drawer .drawer-item.read .content:after {
-    background: -webkit-gradient(linear,right top,left top,from(var(--border_color)),to(hsla(0,0%,100%,0)));
-    background: -o-linear-gradient(right,var(--border_color),hsla(0,0%,100%,0));
-    background: linear-gradient(270deg,var(--border_color),hsla(0,0%,100%,0));
+    background: -webkit-gradient(linear,right top,left top,from(var(--border-color)),to(hsla(0,0%,100%,0)));
+    background: -o-linear-gradient(right,var(--border-color),hsla(0,0%,100%,0));
+    background: linear-gradient(270deg,var(--border-color),hsla(0,0%,100%,0));
 }
 drawer .drawer-item .main-action {
     color: var(--text-color);
