@@ -1029,7 +1029,7 @@ artdeco-dropdown-content.artdeco-dropdown-with-arrow[placement=bottom]::after {
     box-shadow: none;
 }
 
-.pv-top-card-v2-section__photo-wrapper,
+/* .pv-top-card-v2-section__photo-wrapper,
 .pv-top-card-section__photo,
 .EntityPhoto-circle-4,
 .profile-photo-edit,
@@ -1038,7 +1038,7 @@ artdeco-dropdown-content.artdeco-dropdown-with-arrow[placement=bottom]::after {
 .EntityPhoto-circle-7,
 .EntityPhoto-circle-1 {
     border-radius: 5%;
-}
+} */
 
 .entity-list-item,
 .feed-identity-module__anchored-widget,
@@ -1225,6 +1225,9 @@ li-icon[type=linkedin-logo] svg {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, .15), 0 2px 3px rgba(0, 0, 0, .1);
     background-color: #162228;
 }
+.global-nav__a11y-menu {
+    background-color: var(--background,#f3f6f8);
+}
 .course-author-entity .authors-entity .profile-entity__title {
     color: rgba(166, 160, 160, 0.9);
 }
@@ -1312,4 +1315,21 @@ a[class*=t-black]:active, a[class*=t-black]:focus, a[class*=t-black]:hover, a[cl
 .pv-profile-section.background-section.artdeco-container-card.pv-profile-section--reorder-enabled .pv-profile-section .pv-profile-section__card-item-v2,
 .pv-profile-section.background-section.artdeco-container-card.pv-profile-section--reorder-enabled .pv-profile-section .pv-profile-section__card-item{
                background: var(--card) !important;
+}
+
+/* quiz card */
+.attributed-text__code-block {
+    background: var(--card);
+}
+.exam-option__btn {
+    background-color: var(--background);
+
+}
+.attributed-text__inline-code {
+    padding: 4px;
+    background: #434a4e;
+}
+
+.footer-upsell {
+    background-color: var(--background);
 }
