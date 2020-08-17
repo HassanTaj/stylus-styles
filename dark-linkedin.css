@@ -1359,3 +1359,6 @@ a[class*=t-black]:active, a[class*=t-black]:focus, a[class*=t-black]:hover, a[cl
 .course-body__course-toc {
     background: var(--background);
 }
+.course-chapter__header {
+    background: var(--card);
+}
