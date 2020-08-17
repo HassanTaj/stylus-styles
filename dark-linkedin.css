@@ -1,3 +1,9 @@
+/*  PV- Code */
+*{
+    --background:#162228;
+    --card:#1a2a33;
+	--hover:#213b48;
+}
 /*Dark Scrollbar*/
 ::-webkit-scrollbar {
     width: 10px;
@@ -1029,17 +1035,6 @@ artdeco-dropdown-content.artdeco-dropdown-with-arrow[placement=bottom]::after {
     box-shadow: none;
 }
 
-/* .pv-top-card-v2-section__photo-wrapper,
-.pv-top-card-section__photo,
-.EntityPhoto-circle-4,
-.profile-photo-edit,
-.profile-photo-edit__preview,
-.nav-item__profile-member-photo,
-.EntityPhoto-circle-7,
-.EntityPhoto-circle-1 {
-    border-radius: 5%;
-} */
-
 .entity-list-item,
 .feed-identity-module__anchored-widget,
 .feed-shared-interest-package__section-header,
@@ -1116,11 +1111,7 @@ li-icon[type=linkedin-logo] svg {
 }
 
 
-/*  PV- Code */
-*{
-    --background:#162228;
-    --card:#1a2a33;
-}
+
 
 /* Linkedin Learn */
 .classroom-layout__workspace {
@@ -1232,8 +1223,6 @@ li-icon[type=linkedin-logo] svg {
     color: rgba(166, 160, 160, 0.9);
 }
 .profile-entity__headline {
-    font-size: 1.4rem;
-    font-weight: 400;
     color: rgba(166, 160, 160, 0.9);
     line-height: 2rem!important;
     max-height: 4rem;
@@ -1252,50 +1241,26 @@ a[class*=t-black]:active, a[class*=t-black]:focus, a[class*=t-black]:hover, a[cl
     color: #0084bf;
 }
 
-
 /*  Path Page */
 .path-layout__header {
-    -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
-    box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
-    -webkit-transition: -webkit-box-shadow 83ms;
-    transition: -webkit-box-shadow 83ms;
-    transition: box-shadow 83ms;
-    transition: box-shadow 83ms, -webkit-box-shadow 83ms;
     background-color: var(--card);
-    min-height: 195px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: 12px;
 }
 
 .path-card {
     background-color: var(--card);
-    padding: 16px;
-    margin: 0;
     border: 1px solid rgba(0,0,0,.15);
 }
 
 .path-layout {
     background-color: var(--background);
-    position: relative;
-    padding-top: 24px;
 }
 .path-body__author-link {
     background-color: var(--card);
 }
 
 .a11y-bar {
-    width: 100%;
-    min-height: 56px;
-    position: absolute;
-    top: 0;
-    z-index: 0;
-    opacity: 0;
     background-color: var(--background);
 }
-
-
 
 .pv-profile-section.background-section.artdeco-container-card.pv-profile-section--reorder-enabled .pv-profile-section .pv-profile-section__card-item, .pv-profile-section.background-section.artdeco-container-card.pv-profile-section--reorder-enabled .pv-profile-section .pv-profile-section__card-item-v2, .pv-profile-section.background-section.artdeco-container-card.pv-profile-section--reorder-enabled .pv-profile-section .pv-profile-section__section-info-item, .pv-entity__position-group-role-item, .pv-entity__position-group-role-item-fading-timeline, .pv-profile-sticky-header--is-showing, .launchpad-pymk-list__item, .container, .container-with-shadow,  .feed-right-rail__container, .feed-right-rail, .feed-shared-update--chat-ui .comments-comments-list, .feed-shared-social-action-bar, .feed-shared-update--chat-ui .comments-comment-box, .feed-shared-article, .feed-shared-first-prompt-block, a.view-more, button.view-more, .msg-conversations-container__conversations-list, .msg-conversations-container--show-overlay .msg-conversations-container__convo-item, .msg-spinmail-thread__top-banner, .msg-search-form__search-field[type=search], .share-box__wrapper, .org-top-card, .organization-outlet .org-container__ad-module, .nt-settings-summary, .jobs-box, .jobs-home-soho__search-box-container--textured, .jobs-blended-container, .mn-abi-form__container, .mn-discovery-cohorts__carousel-wrapper, .mn-discovery-tabs, .mn-left-rail__top-module, #mynetwork.extended .two-column-with-left-rail .left-rail-container, .msg-overlay-list-bubble, .nav-app-launcher__card, .vanity-name, .edit-content, .create-badge, .controls, .modal__wrapper, .pp-section, .carousel-form .carousel-header, .carousel-body, .pe-form, .profile-photo-edit__edit-icon.profile-photo-edit__edit-icon.profile-photo-edit__edit-icon, .profile-photo-edit, .pe-top-card-form__photo-wrapper, .photo-filter__footer, .profile-photo-cropper__actions, .global-footer__upper-row-wrapper, .nav-container .dropdown-options, #settings-nav, #settings-nav.three-column ul[role="tablist"], #settings-nav.four-column ul[role="tablist"], #app-boot-bg .module, .loading-bg .module, #app-boot-bg .line.white, #app-boot-bg .rect.white, .loading-bg .line.white, .loading-bg .rect.white, .image-sharing-detour-container__edit-content, .nav-accordion .accordion-item.is-expanded, .pv-recent-activity-detail__header-container, .artdeco-hoverable-content--inverse-theme .artdeco-hoverable-content__reset-txt, .artdeco-hoverable-content--inverse-theme .artdeco-hoverable-content__shell, .sort-dropdown__list-item-button:hover, .pv-entity__position-group-pager, .pv-top-card-section__photo-wrapper, .pv-profile-section.background-section.artdeco-container-card.pv-profile-section--reorder-enabled .pv-profile-section .pv-profile-section__section-info, .pv-skill-categories-section__expanded, .pe-hub-drawer__list, artdeco-typeahead-deprecated-results-container .highlighted, artdeco-typeahead-deprecated-results-container li:hover, .feed-shared-sort-comments__list-item-button:hover, .artdeco-carousel-slide, .organization-outlet .org-recently-posted-jobs-module, .organization-outlet .org-recently-posted-jobs-module__show-all-jobs-btn, .org-lcp-job-alert__icon-wrapper, .jobs-top-card, .mn-abi-results, .mn-cohort-view__carousel-wrapper, .feed-follow-nav, .feed-shared-following-filter--active, .feed-shared-following-filter__main-btn-filter, .search-typeahead-v2 .basic-typeahead__selectable.highlighted .search-typeahead-v2__hit, .search-typeahead-v2 .basic-typeahead__selectable:hover .search-typeahead-v2__hit, .SIZE_300_250, .right-rail .ad-banner-container, .search-query-suggestions, .search-storyline-top-card__info-card, .search-s-rail--content .search-s-rail__sticky-container, .search-s-rail--content, .salary-collection .main-content, .salary-collection .typeahead-result.typeahead-result-highlighted, .salary-collection .typeahead-result:hover, .searchbox-container, .popular-job__link, .feed-shared-linkedin-video__description-container--learning, .inline-show-more-text__link-container-collapsed, .share-content-type-button, artdeco-dropdown-item:not([disabled]):focus, artdeco-dropdown-item:not([disabled]):hover, .mn-abi-results__nav-bar--fixed, .mn-suggester, .pv-skills__category-list-item, .feed-update-list__inline-recommendations-header, .msg-overlay-conversation-bubble, .artdeco-dropdown__content, .org-sticky-top-card--is-showing {
     background: var(--background) !important;
@@ -1326,7 +1291,6 @@ a[class*=t-black]:active, a[class*=t-black]:focus, a[class*=t-black]:hover, a[cl
 
 }
 .attributed-text__inline-code {
-    padding: 4px;
     background: #434a4e;
 }
 
@@ -1347,7 +1311,7 @@ a[class*=t-black]:active, a[class*=t-black]:focus, a[class*=t-black]:hover, a[cl
     color: rgb(0 115 177);
 }
 .video-item__link.active, .video-item__link:focus, .video-item__link:hover {
-    background-color: #213b48;
+    background-color: var(--hover);
 }
 .course-body__exercise-files-header {
     border-bottom: 1px solid rgba(0,0,0,.15);
@@ -1361,4 +1325,15 @@ a[class*=t-black]:active, a[class*=t-black]:focus, a[class*=t-black]:hover, a[cl
 }
 .course-chapter__header {
     background: var(--card);
+}
+.artdeco-dropdown__item:not(.artdeco-dropdown__item--disabled), .artdeco-dropdown__item:not(.artdeco-dropdown__item--disabled) {
+    color: #ccc !important;
+}
+.artdeco-dropdown__item:not(.artdeco-dropdown__item--disabled):focus, .artdeco-dropdown__item:not(.artdeco-dropdown__item--disabled):hover {
+    color: #ccc !important;
+    background-color: var(--hover);
+}
+
+.course-banner .artdeco-dropdown__content.course-banner__dropdown-options:after {
+    border-bottom: 9px var(--background)  solid;
 }
