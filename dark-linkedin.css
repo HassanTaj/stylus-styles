@@ -1333,3 +1333,29 @@ a[class*=t-black]:active, a[class*=t-black]:focus, a[class*=t-black]:hover, a[cl
 .footer-upsell {
     background-color: var(--background);
 }
+
+/* Course videos */
+.course-sidebar-upsell {
+	background-color: var(--background);
+}
+.course-chapter {
+    background-color: var(--background);
+    border-bottom: 1px solid rgba(0,0,0,.15);
+}
+.course-chapter__toggle {
+    background-color: transparent;
+    color: rgb(0 115 177);
+}
+.video-item__link.active, .video-item__link:focus, .video-item__link:hover {
+    background-color: #213b48;
+}
+.course-body__exercise-files-header {
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    background-color: var(--card);
+}
+.artdeco-tabs .artdeco-tablist {
+    background: var(--background);
+}
+.course-body__course-toc {
+    background: var(--background);
+}
