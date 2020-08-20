@@ -1333,7 +1333,12 @@ a[class*=t-black]:active, a[class*=t-black]:focus, a[class*=t-black]:hover, a[cl
     color: #ccc !important;
     background-color: var(--hover);
 }
-
 .course-banner .artdeco-dropdown__content.course-banner__dropdown-options:after {
     border-bottom: 9px var(--background)  solid;
+}
+.course-body__info-panel {
+    background: var(--background);
+}
+.course-notes__create-note-container {
+    background-color: var(--card);
 }
