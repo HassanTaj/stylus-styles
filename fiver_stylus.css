@@ -8,18 +8,18 @@
 */
 * {
 	--header-background: #181A1B;
-	--card-bg:#181A1B;
-	--background:#1D1F20;
+	--card-bg: #181A1B;
+	--background: #1D1F20;
 	--active: #1dbf73;
-	--border-color:rgb(55, 59, 62);
-	--text-color:#949494;
-	--text-azure:#1fd0b6;
+	--border-color: rgb(55, 59, 62);
+	--text-color: #949494;
+	--text-azure: #1fd0b6;
+	--panel-heading-bg:rgb(55, 59, 62);
 }
 
 body {
-    color: var(--text-color);
+	color: var(--text-color);
 }
-
 
 /* --------------------------------------- Scroll Bars ---------------------------------  */
 ::-webkit-scrollbar {
@@ -37,7 +37,6 @@ body {
 }
 
 /* -------------------------------------------------------------------------------------- */
-
 /* ---------------------------------- profile page ------------------------------- */
 .standalone-nav-bar {
 	background-color: var(--background);
@@ -49,60 +48,64 @@ body {
 	border-bottom: 1px solid var(--border-color);
 }
 .seller-card {
-    background-color: var(--card-bg);
-    border-color: var(--border-color);
-    color: #cdcdc8;
+	background-color: var(--card-bg);
+	border-color: var(--border-color);
+	color: #cdcdc8;
 }
 .seller-card .user-stats {
-    border-top: 1px solid var(--border-color);
+	border-top: 1px solid var(--border-color);
 }
 .user-page-perseus .seller-profile {
-    border: 1px solid var(--border-color);
-	    background: var(--card-bg);
-
+	border: 1px solid var(--border-color);
+	background: var(--card-bg);
 }
-.user-page-perseus .seller-profile>div {
-    border-bottom: 1px solid var(--border-color);
+.user-page-perseus .seller-profile > div {
+	border-bottom: 1px solid var(--border-color);
 }
 .user-page-perseus .seller-profile .skills li {
-    border: 1px solid var(--border-color);
+	border: 1px solid var(--border-color);
 }
 .user-page-perseus {
 	background: var(--background);
 }
 .user-page-perseus .seller-profile .skills li a {
-    color: var(--text-color);
+	color: var(--text-color);
 }
-h3, .text-display-3 {
-    color: var(--text-azure);
+h3,
+.text-display-3 {
+	color: var(--text-azure);
 }
 #main-wrapper {
-    background: var(--background);
+	background: var(--background);
 }
-.mp-seller-profile .form-thin article>form {
-    border-bottom: 1px solid var(--border-color);
+.mp-seller-profile .form-thin article > form {
+	border-bottom: 1px solid var(--border-color);
 }
 
 /* gigcards */
 .gig-wrapper.card {
-    background-color: var(--card-bg);
-    border: 1px solid var(--border-color);
+	background-color: var(--card-bg);
+	border: 1px solid var(--border-color);
 }
 .gig-wrapper.card footer {
-    clear: both;
-    border-top: 1px solid var(--border-color);
+	clear: both;
+	border-top: 1px solid var(--border-color);
 }
 .gig-wrapper h3 a {
-    cursor: pointer;
+	cursor: pointer;
 	color: var(--text-color);
 }
 
 .gig-wrapper .seller-info .seller-name a {
-    color: var(--text-color);
+	color: var(--text-color);
 }
-.db-new-main-table table td, .db-new-main-table table thead tr.header-filter td, .alt, .db-requests .offers-left, input[type=search] {
-    border-top: 1px solid var(--card-bg) !important;
-    border-bottom: 1px solid var(--card-bg) !important;
+.db-new-main-table table td,
+.db-new-main-table table thead tr.header-filter td,
+.alt,
+.db-requests .offers-left,
+input[type=search] {
+	border-top: 1px solid var(--card-bg) !important;
+	border-bottom: 1px solid var(--card-bg) !important;
 }
 
 /* ---------------------------------------------------------------------------------------- */
@@ -117,48 +120,49 @@ h3, .text-display-3 {
 	color: var(--active);
 	cursor: default;
 }
-.db-new-filters .tabs li a.sel, .db-new-filters .tabs li a:hover, .db-new-filters .tabs li a:active {
-    color: var(--active);
+.db-new-filters .tabs li a.sel,
+.db-new-filters .tabs li a:hover,
+.db-new-filters .tabs li a:active {
+	color: var(--active);
 }
 .db-new-filters .tabs {
-    border-top: 1px solid var(--background);
+	border-top: 1px solid var(--background);
 }
 
 .db-new-filters .tabs {
-    border-bottom: 1px var(--border-color) solid;
-    position: relative;
+	border-bottom: 1px var(--border-color) solid;
+	position: relative;
 }
 
 .db-new-filters .tabs li.pointer {
-    border-bottom: 10px solid var(--border-color);
-    border-right: 10px solid transparent;
-    border-left: 10px solid transparent;
+	border-bottom: 10px solid var(--border-color);
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
 }
 .db-new-filters .tabs li.pointer:before {
-    border-bottom: 9px solid var(--border-color);
-    border-right: 9px solid transparent;
-    border-left: 9px solid transparent;
+	border-bottom: 9px solid var(--border-color);
+	border-right: 9px solid transparent;
+	border-left: 9px solid transparent;
 }
 .dropdown-menu {
-    background-color: var(--background);
-    border: 1px var(--border-color) solid;
-    border-radius: 3px;
-    box-shadow: 0 2px 3px rgba(0,0,0,.1);
+	background-color: var(--background);
+	border: 1px var(--border-color) solid;
+	border-radius: 3px;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, .1);
 }
 .db-new-main-table table thead tr.header-filter .dropdown .dropdown-toggle {
-    border-color: var(--border-color);
+	border-color: var(--border-color);
 }
 .fake-dropdown .dropdown-toggle {
-    background-color: var(--background);
-    color: var(--text-color);
-    border: 1px var(--border-color) solid;
+	background-color: var(--background);
+	color: var(--text-color);
+	border: 1px var(--border-color) solid;
 }
-.db-new-main-table table td .dropdown-toggle, .db-new-main-table table td .dropdown-toggle.no-content {
-    border-color: var(--border-color);
+.db-new-main-table table td .dropdown-toggle,
+.db-new-main-table table td .dropdown-toggle.no-content {
+	border-color: var(--border-color);
 }
 /* ----------------------------- */
-
-
 /*---------------------------------------- Header ----------------------------------------*/
 .header-row-wrapper,
 .nav-popover-items-content,
@@ -179,55 +183,69 @@ h3, .text-display-3 {
 }
 
 /* navigation bar drop down  */
-.categories-menu-package .categories>li.open>ul {
-    background: var(--background);
-    border: 1px solid var(--border-color);
-    -webkit-box-shadow: 0 1px 3px var(--border-color);
-    box-shadow: 0 1px 3px var(--border-color);
+.categories-menu-package .categories > li.open > ul {
+	background: var(--background);
+	border: 1px solid var(--border-color);
+	-webkit-box-shadow: 0 1px 3px var(--border-color);
+	box-shadow: 0 1px 3px var(--border-color);
 }
-.categories-menu-package .sub-menu-item.linked-title>p {
-    color: var(--text-color);
+.categories-menu-package .sub-menu-item.linked-title > p {
+	color: var(--text-color);
 }
 /*  popover */
 .popover-notifications-drawer .tab-switch {
-    background: var(--background);
-    color: var(--text-color);
+	background: var(--background);
+	color: var(--text-color);
 }
 .popover-notifications-drawer .drawer-item.read {
-    background: var(--background);
+	background: var(--background);
 }
 .popover-notifications-drawer .drawer-item:not(:last-child) {
-    border-bottom: 1px solid var(--border-color);
+	border-bottom: 1px solid var(--border-color);
 }
-.popover-notifications-drawer .wrapper>header {
-    border-bottom: 1px solid var(--border-color);
+.popover-notifications-drawer .wrapper > header {
+	border-bottom: 1px solid var(--border-color);
 }
 .toggler-popover aside {
-    background-color: var(--background);
-    position: absolute;
-    z-index: 1001;
-    border: 1px solid var(--border-color);
-    border-radius: 3px;
-    -webkit-box-shadow: 0 0 5px 1px rgba(0,0,0,.05);
-    box-shadow: 0 0 5px 1px rgba(0,0,0,.05);
+	background-color: var(--background);
+	position: absolute;
+	z-index: 1001;
+	border: 1px solid var(--border-color);
+	border-radius: 3px;
+	-webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, .05);
+	box-shadow: 0 0 5px 1px rgba(0, 0, 0, .05);
 }
 .popover-notifications-drawer .items-list {
-    height: 100%;
-    width: 100%;
-    background: var(--background);
+	height: 100%;
+	width: 100%;
+	background: var(--background);
 }
-/* the triangle */
-.toggler-popover aside.bottom .tip:after {
-    top: 1px;
-    border-bottom-color: var(--border-color);
+.popover-notifications-drawer .wrapper>footer {
+    border-top: 1px solid var(--border-color);
+    height: 32px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
-drawer .drawer-item.read .content:after {
+.popover-notifications-drawer .wrapper>header button:not(:first-child) {
+    border-left: 1px solid var(--border-color);
+}
+.popover-notifications-drawer .drawer-item.read .content:after {
     background: -webkit-gradient(linear,right top,left top,from(var(--border-color)),to(hsla(0,0%,100%,0)));
     background: -o-linear-gradient(right,var(--border-color),hsla(0,0%,100%,0));
     background: linear-gradient(270deg,var(--border-color),hsla(0,0%,100%,0));
 }
+/* the triangle */
+.toggler-popover aside.bottom .tip:after {
+	top: 1px;
+	border-bottom-color: var(--border-color);
+}
+drawer .drawer-item.read .content:after {
+	background: -webkit-gradient(linear, right top, left top, from(var(--border-color)), to(hsla(0, 0%, 100%, 0)));
+	background: -o-linear-gradient(right, var(--border-color), hsla(0, 0%, 100%, 0));
+	background: linear-gradient(270deg, var(--border-color), hsla(0, 0%, 100%, 0));
+}
 drawer .drawer-item .main-action {
-    color: var(--text-color);
+	color: var(--text-color);
 }
 /*---------------------------------------- Header Ends ----------------------------------------*/
 /*---------------------------------------- Profile Page --------------------------------------------*/
@@ -414,3 +432,228 @@ input[type=search],
 }
 
 /*---------------------------------------- Footer Ends ----------------------------------------*/
+/*  Seller Dashboard */
+.seller-performance-wrapper {
+	background: var(--card-bg);
+	border-bottom: 1px solid var(--border-color);
+}
+.dashboard-wrapper .seller-dashboard-wrapper {
+	background: var(--background);
+	border-top: 1px solid var(--border-color);
+	border-bottom: 1px solid var(--background);
+}
+.user-conversations header {
+	background: var(--card-bg);
+	border: 1px solid var(--border-color);
+}
+.user-conversations .items-container {
+	border-bottom: 1px solid var(--border-color);
+}
+@media only screen and (min-width: 1160px) {
+
+	.seller-performance-wrapper {
+		margin: 32px 0 auto 32px;
+		border: 1px solid var(--border-color);
+	}
+}
+
+.user-conversations .items-li {
+    border: 1px solid var(--border-color);
+}
+.user-conversations .conversation {
+    background: var(--card-bg);
+}
+.active-orders-wrapper {
+    background: var(--background);
+}
+.dashboard-wrapper .education-tips .tip-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+}
+.dashboard-wrapper .keys-of-success-in-fiverr-banner {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 40px 32px 48px;
+}
+.seller-performance-wrapper .profile-progresses-wrapper .progresses-wrapper {
+    margin-top: 26px;
+    padding-top: 18px;
+    border-bottom: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color);
+    padding-bottom: 4px;
+}
+@media only screen and (min-width: 600px){
+.active-orders-wrapper .filter-wrapper {
+    background: var(--background);
+    border: 1px solid var(--border-color);
+}
+}
+.active-orders-wrapper .filter-wrapper h3 {
+    color: var(--text-azure);
+}
+.active-orders-wrapper .delimiter span {
+    background: var(--background);
+    color: #555;
+}
+.active-orders-wrapper .delimiter {
+    border-top: 2px solid var(--border-color);
+}
+.dashboard-wrapper .through-this-together-banner {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+}
+.seller-education-wrapper .inner {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+}
+.seller_dashboard_perseus .fit-popover .fit-popover-box-content {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+}
+.active-orders-wrapper button[value=completed] {
+    border-top: 1px solid var(--border-color);
+}
+.seller_dashboard_perseus .fit-select-option {
+    color: var(--text-color);
+}
+.seller_dashboard_perseus .fit-select-option:hover {
+    background: var(--background);
+}
+.seller_dashboard_perseus .fit-select, .seller_dashboard_perseus .fit-select {
+    border-color: var(--border-color);
+}
+.seller_dashboard_perseus .fit-select:focus, .seller_dashboard_perseus .fit-select:hover {
+    border-color: var(--border-color);
+}
+.seller_dashboard_perseus .fit-icon {
+    fill: var(--border-color);
+}
+/*  Seller Dashboard */
+
+/*  Earnings */
+.db-stats-standard {
+    background-color: var(--card-bg);
+    border: 1px var(--border-color) solid;
+}
+.db-stats-standard a, .db-stats-standard>span {
+    color: var(--text-color) !important;
+    border-left: 1px solid var(--border-color);
+}
+.db-new-header h1 .money-expected {
+    color: var(--text-color);
+}
+
+.earnings-package .withdraw-buttons-list .withdraw-button {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+}
+/* .earnings-package .withdraw-buttons-list .withdraw-button.disabled {
+    border-color: rgb(139 3 3);
+    color: #b5b6ba;
+} */
+.btn-standard.disabled, .btn-standard:disabled {
+    color: #999!important;
+    border-color: rgb(139 3 3)!important;
+    background-color: var(--card-bg)!important;
+}
+.earnings-package .withdraw-buttons-list .withdraw-button:hover {
+    color: var(--active);
+}
+/*  Earnings */
+
+
+/* Scale Your Business */
+.db-sales-promotion .form-row {
+    background: var(--card-bg);
+    border: 1px var(--border-color) solid;
+}
+.db-sales-promotion .form-row:last-child {
+    border-bottom: 1px var(--border-color) solid;
+}
+/* Scale Your Business */
+
+/* Manage Requests */
+.db-manage-requests .db-empty-state {
+    background-color: var(--card-bg);
+    border: 1px var(--border-color) solid;
+}
+.db-manage-requests .db-empty-state ul li h3 {
+    color: var(--text-azure);
+}
+/* Manage Requests */
+
+
+/* settings */
+.db-sidebar .db-nav.nav-grey a.sel {
+    color: var(--active);
+    position: relative;
+}
+.db-content {
+    background-color: var(--card-bg);
+    border: 1px var(--border-color) solid;
+}
+textarea, input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week] {
+    background-color: var(--background);
+    color: var(--text-color);;
+    border: 1px var(--border-color) solid;
+}
+textarea:active, textarea:focus, input[type=date]:active, input[type=date]:focus, input[type=datetime]:active, input[type=datetime]:focus, input[type=datetime-local]:active, input[type=datetime-local]:focus, input[type=email]:active, input[type=email]:focus, input[type=month]:active, input[type=month]:focus, input[type=number]:active, input[type=number]:focus, input[type=password]:active, input[type=password]:focus, input[type=search]:active, input[type=search]:focus, input[type=tel]:active, input[type=tel]:focus, input[type=text]:active, input[type=text]:focus, input[type=time]:active, input[type=time]:focus, input[type=url]:active, input[type=url]:focus, input[type=week]:active, input[type=week]:focus {
+    border: 1px #1dbf73 solid;
+    color: var(--text-color);
+    box-shadow: inset 2px 2px 2px var(--border-color);
+}
+.profile-form .form-divi {
+    background-color: var(--border-color);
+}
+
+select {
+/*     background: var(--background) url(//assetsv2.fiverrcdn.com/assets/v2_globals/select-caret-77232a3….gif), no-repeat right center; */
+/* 	background: var(--background); */
+    color: #62646a;
+	border-color:var(--border-color);
+}
+.dropdown-menu li>a:hover, .dropdown-menu li>a:focus, .dropdown-menu li>a.selected, .dropdown-menu li input[type=submit]:hover, .dropdown-menu li input[type=submit]:focus, .dropdown-menu li input[type=submit].selected {
+    background-image: none;
+    background: var(--background);
+    color: #1dbf73;
+}
+
+.session-management-package .session-row {
+    border: solid var(--border-color);
+}
+hr {
+    border-top: 1px solid var(--border-color);
+}
+.payment-methods-table-title {
+    background-color: var(--panel-heading-bg);
+    border: 1px solid var(--border-color);
+}
+.payment-methods-table-row {
+    border-bottom: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+}
+.payment-methods-table-title .title-total-amount {
+    border-left: 1px solid var(--card-bg);
+}
+.no-credits-placeholder {
+    border-bottom: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+}
+/* analytics */
+.top-bar .topbar-stats {
+    background-color: var(--card-bg);
+    border: 1px var(--border-color) solid;
+}
+.top-bar .topbar-stats>ul>li {
+    color: #303030;
+    border-left: 1px solid var(--border-color);
+}
+section.stats-section:nth-of-type(odd) {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+}
