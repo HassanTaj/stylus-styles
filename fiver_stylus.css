@@ -670,7 +670,6 @@ section select {
 h2, .text-display-2 {
     color: var(--text-color);
 }
-
 .launcher-icon-container{
 background:var(--panel-heading-bg);	
 }
