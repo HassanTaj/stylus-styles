@@ -21,7 +21,6 @@ body {
 	color: var(--text-color);
 }
 
-
 /* --------------------------------------- Scroll Bars ---------------------------------  */
 ::-webkit-scrollbar {
 	width: 10px;
@@ -670,6 +669,7 @@ section select {
 h2, .text-display-2 {
     color: var(--text-color);
 }
+
 .launcher-icon-container{
 background:var(--panel-heading-bg);	
 }
@@ -688,6 +688,9 @@ background:var(--panel-heading-bg);
 .video-button {
     background-color: var(--panel-heading-bg);
     color: #999;
+}
+.progress-container {
+    background: var(--card-bg);
 }
 path {
     stroke:  var(--border-color);
