@@ -21,6 +21,7 @@ body {
 	color: var(--text-color);
 }
 
+
 /* --------------------------------------- Scroll Bars ---------------------------------  */
 ::-webkit-scrollbar {
 	width: 10px;
@@ -656,4 +657,45 @@ hr {
 section.stats-section:nth-of-type(odd) {
     background-color: var(--card-bg);
     border: 1px solid var(--border-color);
+}
+section .graph-no-data {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+}
+section select {
+    border-color: var(--border-color);
+    background-color: var(--card-bg);
+}
+
+h2, .text-display-2 {
+    color: var(--text-color);
+}
+
+.launcher-icon-container{
+background:var(--panel-heading-bg);	
+}
+.progress-container {
+    background: var(--border-color);
+}
+.level-message .divider {
+    background: var(--border-color);
+}
+.standards .standards-title {
+    color: var(--text-color);
+}
+.ratings .ratings-container .rating-section h3 {
+    color: var(--text-azure);
+}
+.video-button {
+    background-color: var(--panel-heading-bg);
+    color: #999;
+}
+path {
+    stroke:  var(--border-color);
+}
+rect {
+    fill: var(--text-color);
+}
+text {
+    fill: var(--text-azure) !important;
 }
