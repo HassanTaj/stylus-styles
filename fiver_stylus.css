@@ -21,6 +21,7 @@ body {
 	color: var(--text-color);
 }
 
+
 /* --------------------------------------- Scroll Bars ---------------------------------  */
 ::-webkit-scrollbar {
 	width: 10px;
@@ -692,6 +693,15 @@ background:var(--panel-heading-bg);
 .progress-container {
     background: var(--card-bg);
 }
+
+.user-conversations .conversation:hover {
+    background-color: var(--card-bg);
+}
+
+.fiverr-learn .course-list+footer {
+    border-top: 1px solid var(--border-color);
+}
+
 path {
     stroke:  var(--border-color);
 }
