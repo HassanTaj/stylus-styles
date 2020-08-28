@@ -3,6 +3,7 @@
     --background:#162228;
     --card:#1a2a33;
 	--hover:#213b48;
+	--border-color:rgb(17 26 31);
 }
 /*Dark Scrollbar*/
 ::-webkit-scrollbar {
@@ -117,16 +118,18 @@ artdeco-dropdown-content,
 .feed-shared-feed-discovery-entity,
 
 .msg-s-thread-actions-tray__item,
-.msg-form,
-.msg-form__attachment-drag-and-drop,
-.msg-form__compose-error,
-.msg-form__footer,
-
 .comments-comment-item-content-body,
 .comments-highlighted-comment-item-content-body,
 .comments-reply-item-content-body,
 .comments-post-meta__profile-link {
     background: #162228 !important;
+}
+
+.msg-form,
+.msg-form__attachment-drag-and-drop,
+.msg-form__compose-error,
+.msg-form__footer {
+	background: var(--card);
 }
 
 .artdeco-card,
@@ -1357,4 +1360,33 @@ a[class*=t-black]:active, a[class*=t-black]:focus, a[class*=t-black]:hover, a[cl
 }
 .course-body__info-tab-name-count {
     background-color: #2f4c5a;
+}
+.classroom-layout--workspace-mode .classroom-layout__body--sidebar .classroom-layout__workspace-tablist {
+    left: 30em;
+    display: none;
+}
+.msg-s-event-listitem__message-bubble.msg-s-event-listitem__message-bubble--msg-fwd-enabled:hover {
+    background-color: #1f2f38;
+}
+.pv-browsemap-section__member-container::after {
+    border-bottom: 1px solid var(--border-color) !important;
+}
+.pv-profile-section.background-section.artdeco-container-card.pv-profile-section--reorder-enabled .pv-profile-section .pv-profile-section__sortable-item::after {
+    content: "";
+    display: block;
+    margin-left: 100px;
+	border-color:var(--border-color)
+}
+.msg-s-message-list-content {
+    min-height: auto;
+    padding: 16px 0 0;
+    background: var(--card);
+}
+.conversations-quick-replies {
+    min-height: 48px;
+    padding: 0 8px;
+    background: var(--background);
+}
+.msg-conversation-card__content--selectable {
+    border-bottom: 1px solid var(--border-color);
 }
