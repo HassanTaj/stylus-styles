@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,4FAA4F;AAK5F,AAAA,mBAAmB,CAAC;EAChB,KAAK,EAAE,IAAI;CACd;;AAED,AAAA,yBAAyB,CAAC;EACtB,UAAU,EATG,OAAO;CAUvB;;AAED,AAAA,yBAAyB,CAAC;EACtB,UAAU,EAZG,OAAO;CAavB;;AAED,AAAA,yBAAyB,AAAA,MAAM,CAAC;EAC5B,UAAU,EAfS,OAAO;CAgB7B;;AAED,4FAA4F",
+    "sources": [
+        "scroll_bars.scss",
+        "variables.scss"
+    ],
+    "names": [],
+    "file": "scroll_bars.css"
+}

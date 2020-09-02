@@ -1,91 +1,89 @@
-@import 'variables';
-
 /* -----------------------------------------------------------------------------------------------     Gig page 02 sep 20 */
-
 .gig-page, .gig-page-wrapper {
-    background-color: $background;
+  background-color: #1D1F20;
 }
 
-    .gig-page .gig-overview {
-        background: $background;
-    }
+.gig-page .gig-overview {
+  background: #1D1F20;
+}
 
-    .gig-page .gig-description {
-        background: $background;
-    }
+.gig-page .gig-description {
+  background: #1D1F20;
+}
 
-        .gig-page .gig-description .description-wrapper .description-content {
-            color: $text-color;
-        }
+.gig-page .gig-description .description-wrapper .description-content {
+  color: #949494;
+}
 
 .gig-page-bottom {
-    background-color: $background;
-    border-top: 1px solid $border-color;
+  background-color: #1D1F20;
+  border-top: 1px solid var(--border-color);
 }
 
 .gig-page .packages-tabs.triple input[id=package-tab-1]:checked ~ .nav-container label[for=package-tab-1], .gig-page .packages-tabs.triple input[id=package-tab-2]:checked ~ .nav-container label[for=package-tab-2], .gig-page .packages-tabs.triple input[id=package-tab-3]:checked ~ .nav-container label[for=package-tab-3], .gig-page .packages-tabs.triple input[id=package-tab-4]:checked ~ .nav-container label[for=package-tab-4] {
-    color: #1dbf73;
-    border-bottom: 3px solid #1dbf73;
-    background-color: $card-bg;
+  color: #1dbf73;
+  border-bottom: 3px solid #1dbf73;
+  background-color: var(--card-bg);
 }
 
 .gig-page .packages-tabs.triple .nav-container label {
-    background-color: $panel-heading-bg;
-    color: #7a7d85;
-    border: 1px solid $border-color;
+  background-color: var(--panel-heading-bg);
+  color: #7a7d85;
+  border: 1px solid var(--border-color);
 }
 
 @media only screen and (min-width: 900px) {
-    .gig-page .packages-tabs {
-        border: 1px solid $border-color;
-        margin: 0;
-    }
+  .gig-page .packages-tabs {
+    border: 1px solid var(--border-color);
+    margin: 0;
+  }
 }
 
 .gig-page .packages-tabs form {
-    background-color: $card-bg;
+  background-color: var(--card-bg);
 }
 
 .gig-page .seller-card .stats-desc {
-    border: 1px solid $backgrond;
+  border: 1px solid var(--backgrond);
 }
 
 .gig-page .seller-card .seller-desc {
-    border-top: 1px solid $backgrond;
+  border-top: 1px solid var(--backgrond);
 }
 
 .seller-card, .status-filter-bar, .fiverr-learn, .mp-seller-profile article, .user-page-reviews-package > :nth-child(n), .gig-card-base:not(.list-view-card), .mp-seller-profile .form-thin article, .seller-card .seller-link, .gig-card-base h3, .reviews-package .review-description p, .reviews-package .country .country-name, .mp-seller-profile .form-thin article .inner-row.social-account ul li.is-selected, .mp-seller-profile .form-thin article .inner-row.social-account ul li.is-selected span, .mp-seller-profile .form-thin article .inner-row.skills .skill-bubble, .mp-seller-profile .form-thin article .inner-row.skills .recommendation-wrapper .skill-bubble, .mp-seller-profile .form-thin article .inner-row .items-list .title {
-    background-color: $background;
-    border-color: rgb(55, 59, 62);
-    color: #cdcdc8;
+  background-color: #1D1F20;
+  border-color: #373b3e;
+  color: #cdcdc8;
 }
 
 @media only screen and (min-width: 600px) {
-    .gig-page-wrapper .contact-seller-wrapper {
-        background-color: $card-bg;
-        padding: 24px;
-    }
+  .gig-page-wrapper .contact-seller-wrapper {
+    background-color: var(--card-bg);
+    padding: 24px;
+  }
 }
 
 .gig-page .packages-tabs form footer .btn-compare-packages {
-    background: $card-bg;
-    color: #1dbf73;
+  background: var(--card-bg);
+  color: #1dbf73;
 }
 
 .gig-page .gig-tags-container {
-    background: $background;
+  background: #1D1F20;
 }
 
 .gig-page .faq-collapsable {
-    background: $background;
+  background: #1D1F20;
 }
 
-    .gig-page .faq-collapsable .fit-collapsible:not(:last-child) {
-        border-bottom: 1px solid $border-color;
-    }
+.gig-page .faq-collapsable .fit-collapsible:not(:last-child) {
+  border-bottom: 1px solid var(--border-color);
+}
 
 .gig-page .gig-description .metadata {
-    border-top: 1px solid $border-color;
+  border-top: 1px solid var(--border-color);
 }
 
 /* -----------------------------------------------------------------------------------------------     Gig page 02 sep 20 */
+/*# sourceMappingURL=gig_page.css.map */

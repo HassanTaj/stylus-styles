@@ -1,0 +1,19 @@
+/* --------------------------------------- Scroll Bars ---------------------------------  */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #555555;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1dbf73;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #169a5c;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/*# sourceMappingURL=scroll_bars.css.map */
