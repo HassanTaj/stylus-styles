@@ -10,11 +10,13 @@
     --header-background: #181A1B;
     --card-bg: #181A1B;
     --background: #1D1F20;
+    --background-hover: rgb(22, 23, 24);
     --active: #1dbf73;
     --border-color: rgb(55, 59, 62);
     --text-color: #949494;
     --text-azure: #1fd0b6;
     --panel-heading-bg: rgb(55, 59, 62);
+    --text-heading: #cdcdc8;
 }
 
 body {
@@ -22,7 +24,7 @@ body {
 }
 
 
-/* --------------------------------------- Scroll Bars ---------------------------------  */
+/*#region Scroll Bars*/
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -36,19 +38,20 @@ body {
     background: #1dbf73;
 }
 
-    ::-webkit-scrollbar-thumb:hover {
-        background: #169a5c;
-    }
+::-webkit-scrollbar-thumb:hover {
+    background: #169a5c;
+}
 
-/* -------------------------------------------------------------------------------------- */
-/* ---------------------------------- profile page ------------------------------- */
+/*#endregion */
+
+/*#region profile page*/
 .standalone-nav-bar {
     background-color: var(--background);
 }
 
-    .standalone-nav-bar > div .categories-menu-package {
-        background-color: var(--background);
-    }
+.standalone-nav-bar>div .categories-menu-package {
+    background-color: var(--background);
+}
 
 .standalone-nav-bar {
     border-bottom: 1px solid var(--border-color);
@@ -60,30 +63,30 @@ body {
     color: #cdcdc8;
 }
 
-    .seller-card .user-stats {
-        border-top: 1px solid var(--background);
-    }
+.seller-card .user-stats {
+    border-top: 1px solid var(--background);
+}
 
 .user-page-perseus .seller-profile {
     border: 1px solid var(--border-color);
     background: var(--card-bg);
 }
 
-    .user-page-perseus .seller-profile > div {
-        border-bottom: 1px solid var(--border-color);
-    }
+.user-page-perseus .seller-profile>div {
+    border-bottom: 1px solid var(--border-color);
+}
 
-    .user-page-perseus .seller-profile .skills li {
-        border: 1px solid var(--border-color);
-    }
+.user-page-perseus .seller-profile .skills li {
+    border: 1px solid var(--border-color);
+}
 
 .user-page-perseus {
     background: var(--background);
 }
 
-    .user-page-perseus .seller-profile .skills li a {
-        color: var(--text-color);
-    }
+.user-page-perseus .seller-profile .skills li a {
+    color: var(--text-color);
+}
 
 h3,
 .text-display-3 {
@@ -94,7 +97,7 @@ h3,
     background: var(--background);
 }
 
-.mp-seller-profile .form-thin article > form {
+.mp-seller-profile .form-thin article>form {
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -104,10 +107,10 @@ h3,
     border: 1px solid var(--border-color);
 }
 
-    .gig-wrapper.card footer {
-        clear: both;
-        border-top: 1px solid var(--border-color);
-    }
+.gig-wrapper.card footer {
+    clear: both;
+    border-top: 1px solid var(--border-color);
+}
 
 .gig-wrapper h3 a {
     cursor: pointer;
@@ -127,20 +130,21 @@ input[type=search] {
     border-bottom: 1px solid var(--card-bg) !important;
 }
 
-/* ---------------------------------------------------------------------------------------- */
-/* ------------------------------- gig page ----------------------------------------------- */
+/*#endregion*/
+
+/*#region gig page*/
 .gig-page-wrapper {
     background-color: var(--background);
 }
 
-    .gig-page-wrapper .top-nav > nav {
-        background: var(--background);
-    }
+.gig-page-wrapper .top-nav>nav {
+    background: var(--background);
+}
 
-        .gig-page-wrapper .top-nav > nav > ul li.selected a {
-            color: var(--active);
-            cursor: default;
-        }
+.gig-page-wrapper .top-nav>nav>ul li.selected a {
+    color: var(--active);
+    cursor: default;
+}
 
 .db-new-filters .tabs li a.sel,
 .db-new-filters .tabs li a:hover,
@@ -157,17 +161,17 @@ input[type=search] {
     position: relative;
 }
 
-    .db-new-filters .tabs li.pointer {
-        border-bottom: 10px solid var(--border-color);
-        border-right: 10px solid transparent;
-        border-left: 10px solid transparent;
-    }
+.db-new-filters .tabs li.pointer {
+    border-bottom: 10px solid var(--border-color);
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
 
-        .db-new-filters .tabs li.pointer:before {
-            border-bottom: 9px solid var(--border-color);
-            border-right: 9px solid transparent;
-            border-left: 9px solid transparent;
-        }
+.db-new-filters .tabs li.pointer:before {
+    border-bottom: 9px solid var(--border-color);
+    border-right: 9px solid transparent;
+    border-left: 9px solid transparent;
+}
 
 .dropdown-menu {
     background-color: var(--background);
@@ -190,8 +194,115 @@ input[type=search] {
 .db-new-main-table table td .dropdown-toggle.no-content {
     border-color: var(--border-color);
 }
-/* ----------------------------- */
-/*---------------------------------------- Header ----------------------------------------*/
+
+.gig-page,
+.gig-page-wrapper {
+    background-color: var(--background);
+}
+
+.gig-page .gig-overview {
+    background: var(--background);
+}
+
+.gig-page .gig-description {
+    background: var(--background);
+}
+
+.gig-page .gig-description .description-wrapper .description-content {
+    color: var(--text-color);
+}
+
+.gig-page-bottom {
+    background-color: var(--background);
+    border-top: 1px solid var(--border-color);
+}
+
+.gig-page .packages-tabs.triple input[id=package-tab-1]:checked~.nav-container label[for=package-tab-1],
+.gig-page .packages-tabs.triple input[id=package-tab-2]:checked~.nav-container label[for=package-tab-2],
+.gig-page .packages-tabs.triple input[id=package-tab-3]:checked~.nav-container label[for=package-tab-3],
+.gig-page .packages-tabs.triple input[id=package-tab-4]:checked~.nav-container label[for=package-tab-4] {
+    color: #1dbf73;
+    border-bottom: 3px solid #1dbf73;
+    background-color: var(--card-bg);
+}
+
+.gig-page .packages-tabs.triple .nav-container label {
+    background-color: var(--panel-heading-bg);
+    color: #7a7d85;
+    border: 1px solid var(--border-color);
+}
+
+@media only screen and (min-width: 900px) {
+    .gig-page .packages-tabs {
+        border: 1px solid var(--border-color);
+        margin: 0;
+    }
+}
+
+.gig-page .packages-tabs form {
+    background-color: var(--card-bg);
+}
+
+.gig-page .seller-card .stats-desc {
+    border: 1px solid var(--backgrond);
+}
+
+.gig-page .seller-card .seller-desc {
+    border-top: 1px solid var(--backgrond);
+}
+
+.seller-card,
+.status-filter-bar,
+.fiverr-learn,
+.mp-seller-profile article,
+.user-page-reviews-package> :nth-child(n),
+.gig-card-base:not(.list-view-card),
+.mp-seller-profile .form-thin article,
+.seller-card .seller-link,
+.gig-card-base h3,
+.reviews-package .review-description p,
+.reviews-package .country .country-name,
+.mp-seller-profile .form-thin article .inner-row.social-account ul li.is-selected,
+.mp-seller-profile .form-thin article .inner-row.social-account ul li.is-selected span,
+.mp-seller-profile .form-thin article .inner-row.skills .skill-bubble,
+.mp-seller-profile .form-thin article .inner-row.skills .recommendation-wrapper .skill-bubble,
+.mp-seller-profile .form-thin article .inner-row .items-list .title {
+    background-color: var(--background);
+    border-color: rgb(55, 59, 62);
+    color: #cdcdc8;
+}
+
+@media only screen and (min-width: 600px) {
+    .gig-page-wrapper .contact-seller-wrapper {
+        background-color: var(--card-bg);
+        padding: 24px;
+    }
+}
+
+.gig-page .packages-tabs form footer .btn-compare-packages {
+    background: var(--card-bg);
+    color: #1dbf73;
+}
+
+.gig-page .gig-tags-container {
+    background: var(--background);
+}
+
+.gig-page .faq-collapsable {
+    background: var(--background);
+}
+
+.gig-page .faq-collapsable .fit-collapsible:not(:last-child) {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.gig-page .gig-description .metadata {
+    border-top: 1px solid var(--border-color);
+}
+
+/*#endregion*/
+
+/*#region Header*/
 .header-row-wrapper,
 .nav-popover-items-content,
 .toggler-popover aside.bottom .tip:after {
@@ -211,16 +322,17 @@ input[type=search] {
 }
 
 /* navigation bar drop down  */
-.categories-menu-package .categories > li.open > ul {
+.categories-menu-package .categories>li.open>ul {
     background: var(--background);
     border: 1px solid var(--border-color);
     -webkit-box-shadow: 0 1px 3px var(--border-color);
     box-shadow: 0 1px 3px var(--border-color);
 }
 
-.categories-menu-package .sub-menu-item.linked-title > p {
+.categories-menu-package .sub-menu-item.linked-title>p {
     color: var(--text-color);
 }
+
 /*  popover */
 .popover-notifications-drawer .tab-switch {
     background: var(--background);
@@ -235,7 +347,7 @@ input[type=search] {
     border-bottom: 1px solid var(--border-color);
 }
 
-.popover-notifications-drawer .wrapper > header {
+.popover-notifications-drawer .wrapper>header {
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -255,22 +367,23 @@ input[type=search] {
     background: var(--background);
 }
 
-.popover-notifications-drawer .wrapper > footer {
+.popover-notifications-drawer .wrapper>footer {
     border-top: 1px solid var(--border-color);
     height: 32px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-.popover-notifications-drawer .wrapper > header button:not(:first-child) {
+.popover-notifications-drawer .wrapper>header button:not(:first-child) {
     border-left: 1px solid var(--border-color);
 }
 
 .popover-notifications-drawer .drawer-item.read .content:after {
-    background: -webkit-gradient(linear,right top,left top,from(var(--border-color)),to(hsla(0,0%,100%,0)));
-    background: -o-linear-gradient(right,var(--border-color),hsla(0,0%,100%,0));
-    background: linear-gradient(270deg,var(--border-color),hsla(0,0%,100%,0));
+    background: -webkit-gradient(linear, right top, left top, from(var(--border-color)), to(hsla(0, 0%, 100%, 0)));
+    background: -o-linear-gradient(right, var(--border-color), hsla(0, 0%, 100%, 0));
+    background: linear-gradient(270deg, var(--border-color), hsla(0, 0%, 100%, 0));
 }
+
 /* the triangle */
 .toggler-popover aside.bottom .tip:after {
     top: 1px;
@@ -286,13 +399,15 @@ drawer .drawer-item.read .content:after {
 drawer .drawer-item .main-action {
     color: var(--text-color);
 }
-/*---------------------------------------- Header Ends ----------------------------------------*/
-/*---------------------------------------- Profile Page --------------------------------------------*/
+
+/*#endregion Header Ends*/
+
+/*#region Profile Page*/
 .seller-card,
 .status-filter-bar,
 .fiverr-learn,
 .mp-seller-profile article,
-.user-page-reviews-package > :nth-child(n),
+.user-page-reviews-package> :nth-child(n),
 .gig-card-base:not(.list-view-card),
 .mp-seller-profile .form-thin article,
 .seller-card .seller-link,
@@ -309,31 +424,32 @@ drawer .drawer-item .main-action {
     color: #cdcdc8;
 }
 
-    .mp-seller-profile .form-thin article .inner-row.social-account ul li:hover,
-    .mp-seller-profile .form-thin article .inner-row.skills .skill-bubble:hover,
-    .mp-seller-profile .form-thin article .inner-row.skills .skill-bubble .animate {
-        background-color: rgb(27, 29, 30);
-        border-color: rgb(55, 59, 62);
-    }
+.mp-seller-profile .form-thin article .inner-row.social-account ul li:hover,
+.mp-seller-profile .form-thin article .inner-row.skills .skill-bubble:hover,
+.mp-seller-profile .form-thin article .inner-row.skills .skill-bubble .animate {
+    background-color: rgb(27, 29, 30);
+    border-color: rgb(55, 59, 62);
+}
 
-    .status-filter-bar li.selected-filter,
-    h5,
-    .text-display-5,
-    .mp-seller-profile .form-thin article h3 {
-        color: #d9d9d9;
-    }
+.status-filter-bar li.selected-filter,
+h5,
+.text-display-5,
+.mp-seller-profile .form-thin article h3 {
+    color: #d9d9d9;
+}
 
-/*---------------------------------------- Profile Page Ends ----------------------------------------*/
-/*---------------------------------------- Inbox Styling ----------------------------------------*/
+/*#endregion*/
+
+/*#region Inbox Styling*/
 .inbox_perseus,
 .contacts-container header,
-.contacts-list > .contact.active-contact,
+.contacts-list>.contact.active-contact,
 .route,
-#conversation > header,
-.textarea-container textarea .message-flow .content > div .message:hover,
+#conversation>header,
+.textarea-container textarea .message-flow .content>div .message:hover,
 .message-box,
 .contacts-container,
-.contacts-list > .contact,
+.contacts-list>.contact,
 .message-box,
 .message-box .textarea-container textarea,
 .message-box .message-uploader-container,
@@ -342,55 +458,56 @@ drawer .drawer-item .main-action {
     background-color: #1D1F20;
 }
 
-    .route,
-    #conversation > header,
-    .contacts-list > .contact,
-    .contacts-container header,
-    .contacts-container,
-    .message-box .message-uploader-container,
-    .contact-label,
-    .search-bar-package form input,
-    .details-pane .orders .order-card,
-    .details-pane {
-        border-color: rgb(55, 59, 62)
-    }
+.route,
+#conversation>header,
+.contacts-list>.contact,
+.contacts-container header,
+.contacts-container,
+.message-box .message-uploader-container,
+.contact-label,
+.search-bar-package form input,
+.details-pane .orders .order-card,
+.details-pane {
+    border-color: rgb(55, 59, 62)
+}
 
 
-        /*hovering color*/
-        .contacts-list > .contact:hover,
-        .details-pane .orders .order-card:hover,
-        .message:hover {
-            background-color: rgb(27, 29, 30);
-        }
+/*hovering color*/
+.contacts-list>.contact:hover,
+.details-pane .orders .order-card:hover,
+.message:hover {
+    background-color: rgb(27, 29, 30);
+}
 
 
-        #conversation .message-flow .message-content .message-body,
-        .message .sender,
-        .contacts-list > .contact p,
-        .fiverr-message h6,
-        .fiverr-message p,
-        .fiverr-message a,
-        .contacts-list > .contact strong,
-        .fiverr-message button,
-        .button-link,
-        .related-to a .text-wrapper p,
-        .related-to a .text-wrapper p,
-        .details-pane .summary .username,
-        .user-level,
-        .details-pane li,
-        .details-pane .orders .active-order,
-        .details-pane .orders .order-card .order-info .order-status small,
-        .details-pane .orders .order-card .order-info .delivery-time span,
-        .fa-clock-o:before,
-        .message-box .textarea-container textarea,
-        .details-pane h2 #conversation > header .upper-row .user-info h,
-        #conversation > header .upper-row .user-info h1,
-        .contact-label {
-            color: #cdcdc8;
-        }
+#conversation .message-flow .message-content .message-body,
+.message .sender,
+.contacts-list>.contact p,
+.fiverr-message h6,
+.fiverr-message p,
+.fiverr-message a,
+.contacts-list>.contact strong,
+.fiverr-message button,
+.button-link,
+.related-to a .text-wrapper p,
+.related-to a .text-wrapper p,
+.details-pane .summary .username,
+.user-level,
+.details-pane li,
+.details-pane .orders .active-order,
+.details-pane .orders .order-card .order-info .order-status small,
+.details-pane .orders .order-card .order-info .delivery-time span,
+.fa-clock-o:before,
+.message-box .textarea-container textarea,
+.details-pane h2 #conversation>header .upper-row .user-info h,
+#conversation>header .upper-row .user-info h1,
+.contact-label {
+    color: #cdcdc8;
+}
 
-/*---------------------------------------- Inbox styling Ends ----------------------------------------*/
-/*---------------------------------------- Request Page ---------------------------------------------*/
+/*#endregion*/
+
+/*#region Request Page*/
 .mp-box {
     background-color: #1D1F20;
 }
@@ -403,17 +520,17 @@ drawer .drawer-item .main-action {
 .js-filter-title,
 .sort-by,
 .db-new-main-table table thead tr,
-.db-new-main-table > table > tbody > tr > td,
+.db-new-main-table>table>tbody>tr>td,
 .db-load-more a,
 .tags-standard.tags-white-bg a,
 .tags-standard.tags-white-bg span {
     background-color: #181A1B;
 }
 
-    body.pro-experience .db-new-main-table table tbody tr:hover td,
-    .db-load-more a:hover {
-        background-color: rgb(30, 33, 34);
-    }
+body.pro-experience .db-new-main-table table tbody tr:hover td,
+.db-load-more a:hover {
+    background-color: rgb(30, 33, 34);
+}
 
 .db-load-more a,
 .tags-standard.tags-white-bg a,
@@ -430,13 +547,13 @@ input[type=search] {
     border-bottom: 1px solid #373C3E;
 }
 
-    .db-new-main-table table td:first-child {
-        border-left: 1px solid #373C3E;
-    }
+.db-new-main-table table td:first-child {
+    border-left: 1px solid #373C3E;
+}
 
-    .db-new-main-table table td:last-child {
-        border-right: 1px solid #373C3E;
-    }
+.db-new-main-table table td:last-child {
+    border-right: 1px solid #373C3E;
+}
 
 .db-new-filters .tabs {
     border-top: 1px solid #373C3E;
@@ -456,8 +573,9 @@ input[type=search],
     color: #cdcdc8;
 }
 
-/*---------------------------------------- Request Page Ends ----------------------------------------*/
-/*---------------------------------------- Footer ---------------------------------------------*/
+/*#endregion*/
+
+/*#region Footer*/
 .site-footer {
     background-color: #1D1F20;
 }
@@ -470,8 +588,9 @@ input[type=search],
     border-top: 1px solid #373C3E;
 }
 
-/*---------------------------------------- Footer Ends ----------------------------------------*/
-/*  Seller Dashboard */
+/*#endregion*/
+
+/*#region Seller Dashboard*/
 .seller-performance-wrapper {
     background: var(--card-bg);
     border-bottom: 1px solid var(--border-color);
@@ -577,33 +696,37 @@ input[type=search],
     color: var(--text-color);
 }
 
-    .seller_dashboard_perseus .fit-select-option:hover {
-        background: var(--background);
-    }
+.seller_dashboard_perseus .fit-select-option:hover {
+    background: var(--background);
+}
 
-.seller_dashboard_perseus .fit-select, .seller_dashboard_perseus .fit-select {
+.seller_dashboard_perseus .fit-select,
+.seller_dashboard_perseus .fit-select {
     border-color: var(--border-color);
 }
 
-    .seller_dashboard_perseus .fit-select:focus, .seller_dashboard_perseus .fit-select:hover {
-        border-color: var(--border-color);
-    }
+.seller_dashboard_perseus .fit-select:focus,
+.seller_dashboard_perseus .fit-select:hover {
+    border-color: var(--border-color);
+}
 
 .seller_dashboard_perseus .fit-icon {
     fill: var(--border-color);
 }
-/*  Seller Dashboard */
 
-/*  Earnings */
+/*#endregion*/
+
+/*#region Earnings*/
 .db-stats-standard {
     background-color: var(--card-bg);
     border: 1px var(--border-color) solid;
 }
 
-    .db-stats-standard a, .db-stats-standard > span {
-        color: var(--text-color) !important;
-        border-left: 1px solid var(--border-color);
-    }
+.db-stats-standard a,
+.db-stats-standard>span {
+    color: var(--text-color) !important;
+    border-left: 1px solid var(--border-color);
+}
 
 .db-new-header h1 .money-expected {
     color: var(--text-color);
@@ -613,11 +736,13 @@ input[type=search],
     background: var(--card-bg);
     border: 1px solid var(--border-color);
 }
+
 /* .earnings-package .withdraw-buttons-list .withdraw-button.disabled {
     border-color: rgb(139 3 3);
     color: #b5b6ba;
 } */
-.btn-standard.disabled, .btn-standard:disabled {
+.btn-standard.disabled,
+.btn-standard:disabled {
     color: #999 !important;
     border-color: rgb(139 3 3) !important;
     background-color: var(--card-bg) !important;
@@ -626,33 +751,34 @@ input[type=search],
 .earnings-package .withdraw-buttons-list .withdraw-button:hover {
     color: var(--active);
 }
-/*  Earnings */
 
+/*#endregion*/
 
-/* Scale Your Business */
+/*#region Scale Your Business */
 .db-sales-promotion .form-row {
     background: var(--card-bg);
     border: 1px var(--border-color) solid;
 }
 
-    .db-sales-promotion .form-row:last-child {
-        border-bottom: 1px var(--border-color) solid;
-    }
-/* Scale Your Business */
+.db-sales-promotion .form-row:last-child {
+    border-bottom: 1px var(--border-color) solid;
+}
 
-/* Manage Requests */
+/*#endregion*/
+
+/*#region Manage Requests */
 .db-manage-requests .db-empty-state {
     background-color: var(--card-bg);
     border: 1px var(--border-color) solid;
 }
 
-    .db-manage-requests .db-empty-state ul li h3 {
-        color: var(--text-azure);
-    }
-/* Manage Requests */
+.db-manage-requests .db-empty-state ul li h3 {
+    color: var(--text-azure);
+}
 
+/*#endregion*/
 
-/* settings */
+/*#region settings*/
 .db-sidebar .db-nav.nav-grey a.sel {
     color: var(--active);
     position: relative;
@@ -663,18 +789,58 @@ input[type=search],
     border: 1px var(--border-color) solid;
 }
 
-textarea, input[type=date], input[type=datetime], input[type=datetime-local], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week] {
+textarea,
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week] {
     background-color: var(--background);
     color: var(--text-color);
     ;
     border: 1px var(--border-color) solid;
 }
 
-    textarea:active, textarea:focus, input[type=date]:active, input[type=date]:focus, input[type=datetime]:active, input[type=datetime]:focus, input[type=datetime-local]:active, input[type=datetime-local]:focus, input[type=email]:active, input[type=email]:focus, input[type=month]:active, input[type=month]:focus, input[type=number]:active, input[type=number]:focus, input[type=password]:active, input[type=password]:focus, input[type=search]:active, input[type=search]:focus, input[type=tel]:active, input[type=tel]:focus, input[type=text]:active, input[type=text]:focus, input[type=time]:active, input[type=time]:focus, input[type=url]:active, input[type=url]:focus, input[type=week]:active, input[type=week]:focus {
-        border: 1px #1dbf73 solid;
-        color: var(--text-color);
-        box-shadow: inset 2px 2px 2px var(--border-color);
-    }
+textarea:active,
+textarea:focus,
+input[type=date]:active,
+input[type=date]:focus,
+input[type=datetime]:active,
+input[type=datetime]:focus,
+input[type=datetime-local]:active,
+input[type=datetime-local]:focus,
+input[type=email]:active,
+input[type=email]:focus,
+input[type=month]:active,
+input[type=month]:focus,
+input[type=number]:active,
+input[type=number]:focus,
+input[type=password]:active,
+input[type=password]:focus,
+input[type=search]:active,
+input[type=search]:focus,
+input[type=tel]:active,
+input[type=tel]:focus,
+input[type=text]:active,
+input[type=text]:focus,
+input[type=time]:active,
+input[type=time]:focus,
+input[type=url]:active,
+input[type=url]:focus,
+input[type=week]:active,
+input[type=week]:focus {
+    border: 1px #1dbf73 solid;
+    color: var(--text-color);
+    box-shadow: inset 2px 2px 2px var(--border-color);
+}
 
 .profile-form .form-divi {
     background-color: var(--border-color);
@@ -687,7 +853,12 @@ select {
     border-color: var(--border-color);
 }
 
-.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-menu li > a.selected, .dropdown-menu li input[type=submit]:hover, .dropdown-menu li input[type=submit]:focus, .dropdown-menu li input[type=submit].selected {
+.dropdown-menu li>a:hover,
+.dropdown-menu li>a:focus,
+.dropdown-menu li>a.selected,
+.dropdown-menu li input[type=submit]:hover,
+.dropdown-menu li input[type=submit]:focus,
+.dropdown-menu li input[type=submit].selected {
     background-image: none;
     background: var(--background);
     color: #1dbf73;
@@ -721,16 +892,19 @@ hr {
     border-right: 1px solid var(--border-color);
     border-left: 1px solid var(--border-color);
 }
-/* analytics */
+
+/*#endregion*/
+
+/*#region analytics*/
 .top-bar .topbar-stats {
     background-color: var(--card-bg);
     border: 1px var(--border-color) solid;
 }
 
-    .top-bar .topbar-stats > ul > li {
-        color: #303030;
-        border-left: 1px solid var(--border-color);
-    }
+.top-bar .topbar-stats>ul>li {
+    color: #303030;
+    border-left: 1px solid var(--border-color);
+}
 
 section.stats-section:nth-of-type(odd) {
     background-color: var(--card-bg);
@@ -747,7 +921,8 @@ section select {
     background-color: var(--card-bg);
 }
 
-h2, .text-display-2 {
+h2,
+.text-display-2 {
     color: var(--text-color);
 }
 
@@ -784,7 +959,7 @@ h2, .text-display-2 {
     background-color: var(--card-bg);
 }
 
-.fiverr-learn .course-list + footer {
+.fiverr-learn .course-list+footer {
     margin-top: 5px;
     border-top: 1px solid var(--border-color);
     padding-top: 15px;
@@ -802,202 +977,145 @@ text {
     fill: var(--text-azure) !important;
 }
 
-/* -----------------------------------------------------------------------------------------------     Gig page 02 sep 20 */
+/*#endregion*/
 
-.gig-page, .gig-page-wrapper {
-    background-color: var(--background);
-}
-
-    .gig-page .gig-overview {
-        background: var(--background);
-    }
-
-    .gig-page .gig-description {
-        background: var(--background);
-    }
-
-        .gig-page .gig-description .description-wrapper .description-content {
-            color: var(--text-color);
-        }
-
-.gig-page-bottom {
-    background-color: var(--background);
-    border-top: 1px solid var(--border-color);
-}
-
-.gig-page .packages-tabs.triple input[id=package-tab-1]:checked ~ .nav-container label[for=package-tab-1], .gig-page .packages-tabs.triple input[id=package-tab-2]:checked ~ .nav-container label[for=package-tab-2], .gig-page .packages-tabs.triple input[id=package-tab-3]:checked ~ .nav-container label[for=package-tab-3], .gig-page .packages-tabs.triple input[id=package-tab-4]:checked ~ .nav-container label[for=package-tab-4] {
-    color: #1dbf73;
-    border-bottom: 3px solid #1dbf73;
-    background-color: var(--card-bg);
-}
-
-.gig-page .packages-tabs.triple .nav-container label {
-    background-color: var(--panel-heading-bg);
-    color: #7a7d85;
-    border: 1px solid var(--border-color);
-}
-
-@media only screen and (min-width: 900px) {
-    .gig-page .packages-tabs {
-        border: 1px solid var(--border-color);
-        margin: 0;
-    }
-}
-
-.gig-page .packages-tabs form {
-    background-color: var(--card-bg);
-}
-
-.gig-page .seller-card .stats-desc {
-    border: 1px solid var(--backgrond);
-}
-
-.gig-page .seller-card .seller-desc {
-    border-top: 1px solid var(--backgrond);
-}
-
-.seller-card, .status-filter-bar, .fiverr-learn, .mp-seller-profile article, .user-page-reviews-package > :nth-child(n), .gig-card-base:not(.list-view-card), .mp-seller-profile .form-thin article, .seller-card .seller-link, .gig-card-base h3, .reviews-package .review-description p, .reviews-package .country .country-name, .mp-seller-profile .form-thin article .inner-row.social-account ul li.is-selected, .mp-seller-profile .form-thin article .inner-row.social-account ul li.is-selected span, .mp-seller-profile .form-thin article .inner-row.skills .skill-bubble, .mp-seller-profile .form-thin article .inner-row.skills .recommendation-wrapper .skill-bubble, .mp-seller-profile .form-thin article .inner-row .items-list .title {
-    background-color: var(--background);
-    border-color: rgb(55, 59, 62);
-    color: #cdcdc8;
-}
-
-@media only screen and (min-width: 600px) {
-    .gig-page-wrapper .contact-seller-wrapper {
-        background-color: var(--card-bg);
-        padding: 24px;
-    }
-}
-
-.gig-page .packages-tabs form footer .btn-compare-packages {
-    background: var(--card-bg);
-    color: #1dbf73;
-}
-
-.gig-page .gig-tags-container {
-    background: var(--background);
-}
-
-.gig-page .faq-collapsable {
-    background: var(--background);
-}
-
-    .gig-page .faq-collapsable .fit-collapsible:not(:last-child) {
-        border-bottom: 1px solid var(--border-color);
-    }
-
-.gig-page .gig-description .metadata {
-    border-top: 1px solid var(--border-color);
-}
-
-/* -----------------------------------------------------------------------------------------------     Gig page 02 sep 20 */
-
-/*---------------------------------------- Order Page ----------------------------------------*/
+/*#region Order Page*/
 .db-new-main-table table tr.order-extra td {
-	background-color: var(--header-background);
+    background-color: var(--header-background);
 }
-/*---------------------------------------- Order Page Ends ----------------------------------------*/
-/*---------------------------------------- Manage Orders Page ----------------------------------------*/
+
+/*#endregion*/
+
+/*#region Manage Orders Page*/
 .order-tabs-wrapper,
 .db-order-activity .order-resolution main,
 .db-order-activity .order-resolution main table.change-order-table tr th,
 .db-order-activity .order-resolution main table.change-order-table tr td,
-.db-order-activity .order-messages .conv-message, .order-review-posted,
+.db-order-activity .order-messages .conv-message,
+.order-review-posted,
 .order-review-posted .conv-message .review-summary,
 .order-seller-response .review-form-response .form-expanded textarea,
 .order-notes-wrapper.note-order-page,
 .mp-order .db-sidebar .resolution-cta,
-.msg-form-fixed .conv-write{
-	background-color: var(--card-bg);
-	border: 1px solid var(--border-color);
+.msg-form-fixed .conv-write {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
 }
+
 .conv-write .write-wrap .write-row textarea#message_body,
 .conv-write .write-wrap .write-controls,
-.unfurl-preview-wrapper{
-	background-color: var(--card-bg);
+.unfurl-preview-wrapper {
+    background-color: var(--card-bg);
 }
-#action-bar{
-	background-color: var(--card-bg);
-	border-bottom: 1px solid var(--border-color);
+
+#action-bar {
+    background-color: var(--card-bg);
+    border-bottom: 1px solid var(--border-color);
 }
-.quick-responses header .use-qr{
-	color: var(--text-heading);
+
+.quick-responses header .use-qr {
+    color: var(--text-heading);
 }
-section.recent-conversations .order-status-lrg{
-	background-color: var(--card-bg);
-	border-bottom: 1px solid var(--border-color);
+
+section.recent-conversations .order-status-lrg {
+    background-color: var(--card-bg);
+    border-bottom: 1px solid var(--border-color);
 }
-.db-order-activity .order-gig-details, 
-.db-order-activity .order-messages{
-	border-top: 15px solid var(--border-color);
-	background: none;
+
+.db-order-activity .order-gig-details,
+.db-order-activity .order-messages {
+    border-top: 15px solid var(--border-color);
+    background: none;
 }
+
 .db-order-activity .order-status-lrg.border-bottom,
 .formed-requirements-wrapper .requirements-header,
 .old-requirements-style .requirements-header,
-.order-notes-wrapper.note-order-page .note-wrapper>p{
-	border-bottom: 1 solid var(--border-color);
+.order-notes-wrapper.note-order-page .note-wrapper>p {
+    border-bottom: 1 solid var(--border-color);
 }
-button, input, select, textarea{
-	background-color: var(--header-background);
+
+button,
+input,
+select,
+textarea {
+    background-color: var(--header-background);
 }
-.db-order-activity .order-gig-detail table thead tr td{
-	background-color: var(--header-background);
-	border-top: 1px solid var(--border-color);
+
+.db-order-activity .order-gig-detail table thead tr td {
+    background-color: var(--header-background);
+    border-top: 1px solid var(--border-color);
 }
+
 .db-order-activity .order-gig-detail table tr,
 .db-order-activity .order-gig-detail table thead tr,
-.db-order-activity .order-gig-detail table tbody tr .truncated, .qty, .date, .amount{
-	border-top: 1px solid var(--border-color);
+.db-order-activity .order-gig-detail table tbody tr .truncated,
+.qty,
+.date,
+.amount {
+    border-top: 1px solid var(--border-color);
 }
+
 .db-order-activity .order-gig-detail table thead tr td,
 .order-review-posted .conv-message .review-summary a,
-.conv-message h4{
-	color: var(--text-heading);
+.conv-message h4 {
+    color: var(--text-heading);
 }
+
 .db-order-activity .order-gig-detail table tbody tr td,
 .db-order-activity .order-gig-detail table tr.total td,
 .db-order-activity .order-gig-detail table tr.package-order h5,
-.formed-requirements-wrapper .requirements-view, .old-requirements-style .requirements-view,
-.formed-requirements-wrapper .requirements-view .requirement .requirement-body, 
-.old-requirements-style .requirements-view .requirement .requirement-body, 
+.formed-requirements-wrapper .requirements-view,
+.old-requirements-style .requirements-view,
+.formed-requirements-wrapper .requirements-view .requirement .requirement-body,
+.old-requirements-style .requirements-view .requirement .requirement-body,
 .order-seller-response .review-form-response .form-expanded label,
-.order-review-posted .conv-message .review-summary p{
-	color: var(--text-color);
+.order-review-posted .conv-message .review-summary p {
+    color: var(--text-color);
 }
-/*---------------------------------------- Manage Orders Page Ends ----------------------------------------*/
-/*---------------------------------------- Custom Offer ----------------------------------------*/
-.MODAL__modal-content-header-ue9c13af0{
-	background-color: var(--card-bg);
-	border-bottom: 1px solid var(--border-color);
+
+/*#endregion*/
+
+/*#region Custom Offer*/
+.MODAL__modal-content-header-ue9c13af0 {
+    background-color: var(--card-bg);
+    border-bottom: 1px solid var(--border-color);
 }
-.custom-offer-package .select-gig button{
-	background-color: var(--background);
-	color: var(--text-heading);
-	border-bottom: 1px solid var(--border-color);	
+
+.custom-offer-package .select-gig button {
+    background-color: var(--background);
+    color: var(--text-heading);
+    border-bottom: 1px solid var(--border-color);
 }
-.custom-offer-package .select-gig button:hover{
-	background-color: var(--background-hover);
+
+.custom-offer-package .select-gig button:hover {
+    background-color: var(--background-hover);
 }
-.MODAL__modal-content-header-ue9c13af0> h2, .text-display-2{
-	color: var(--active);
+
+.MODAL__modal-content-header-ue9c13af0>h2,
+.text-display-2 {
+    color: var(--active);
 }
-.MODAL__modal-content-body-u3822b3b5{
-	background-color: var(--card-bg);
-	border-bottom: 1px solid var(--border-color);
+
+.MODAL__modal-content-body-u3822b3b5 {
+    background-color: var(--card-bg);
+    border-bottom: 1px solid var(--border-color);
 }
-.custom-offer-package .milestone-banner{
-	background-color: var(--card-bg);
-	border-bottom: 1px solid var(--border-color);
-	border-top: 1px solid var(--border-color);	
+
+.custom-offer-package .milestone-banner {
+    background-color: var(--card-bg);
+    border-bottom: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color);
 }
-.custom-offer-package .method-one-delivery label{
-	background-color: var(--card-bg);
-	border: 1px solid var(--border-color);	
+
+.custom-offer-package .method-one-delivery label {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
 }
-.custom-offer-package .offer-scope .title{
-	background-color: var(--card-bg);
-	border-bottom: 1px solid var(--border-color);
-	border-top: 1px solid var(--border-color);
+
+.custom-offer-package .offer-scope .title {
+    background-color: var(--card-bg);
+    border-bottom: 1px solid var(--border-color);
+    border-top: 1px solid var(--border-color);
 }
-/*---------------------------------------- Custom Offer Ends ----------------------------------------*/
+/*#endregion*/
