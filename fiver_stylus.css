@@ -6,6 +6,7 @@
 ---text color (color)
 
 */
+
 * {
     --header-background: #181A1B;
     --card-bg: #181A1B;
@@ -22,7 +23,6 @@
 body {
     color: var(--text-color);
 }
-
 
 /*#region Scroll Bars*/
 ::-webkit-scrollbar {
