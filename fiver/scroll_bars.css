@@ -1,4 +1,4 @@
-/* --------------------------------------- Scroll Bars ---------------------------------  */
+/*#region Scroll Bars */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -15,5 +15,5 @@
   background: #169a5c;
 }
 
-/* -------------------------------------------------------------------------------------- */
+/*#endregion */
 /*# sourceMappingURL=scroll_bars.css.map */

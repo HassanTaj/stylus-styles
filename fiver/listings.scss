@@ -1,0 +1,50 @@
+@import "variables";
+
+.listings-perseus .search-page .row.header-wrapper .search-header .title {
+    color: $text-color;
+}
+
+.listings-perseus .search-page .related-search {
+    background-color: $background;
+    border-bottom: 1px solid $border-color;
+}
+
+.listings-perseus .top-filters .sticky-wrapper {
+    background-color: $background;
+}
+
+.listings-perseus .top-filters .sticky-wrapper .shadow-effect {
+    background-color: $panel-heading-bg;
+}
+
+.listings-perseus .top-filters .sticky-wrapper:after {
+    background: -webkit-gradient(linear,left top,left bottom,from($panel-heading-bg)),color-stop(50%,hsla(0,0%,100%,.8)),color-stop(70%,hsla(0,0%,100%,.4)),to(transparent);
+    background: -o-linear-gradient($panel-heading-bg),$panel-heading-bg 50%,$panel-heading-bg 70%,transparent;
+    background: linear-gradient($panel-heading-bg),$panel-heading-bg 50%,$panel-heading-bg 70%,transparent;
+    top: 0;
+    z-index: 2;
+}
+
+.listings-perseus .search-page .top-filters-subcategories-filter.as-filter button {
+    color: $text-color;
+    border: 1px solid $card-bg;
+}
+
+.listings-perseus .floating-top-bar .top-filters .filter-menu, .listings-perseus .floating-top-bar .top-filters .more-filter-menu {
+    color: $text-color;
+    border: 1px solid $card-bg;
+}
+
+.listings-perseus .search-page .recommendations-carousels, .listings-perseus .sub-categories-page .recommendations-carousels {
+    background-color: $header-background;
+}
+
+.listings-perseus .page-pagination li a, .listings-perseus .page-pagination li span {
+    color: $text-color;
+}
+
+.listings-perseus .search-page .related-search nav.row a {
+    background-color: $panel-heading-bg;
+    color: $text-color;
+    border: 1px solid $border-color;
+}

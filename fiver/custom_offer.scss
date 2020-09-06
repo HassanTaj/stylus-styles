@@ -1,45 +1,45 @@
 @import 'variables';
 
-
-/*#region Custom Offer*/
+/*#region custom Offer*/
 .MODAL__modal-content-header-ue9c13af0 {
-    background-color: var($card-bg);
-    border-bottom: 1px solid var($border-color);
+    background-color: $card-bg;
+    border-bottom: 1px solid $border-color;
 }
 
 .custom-offer-package .select-gig button {
-    background-color: var($background);
-    color: var($text-heading);
-    border-bottom: 1px solid var($border-color);
+    background-color: $background;
+    color: $text-heading;
+    border-bottom: 1px solid $border-color;
 }
 
 .custom-offer-package .select-gig button:hover {
-    background-color: var($background-hover);
+    background-color: $background-hover;
 }
 
-.MODAL__modal-content-header-ue9c13af0 > h2,.text-display-2 {
-    color: var($active);
+.MODAL__modal-content-header-ue9c13af0>h2,
+.text-display-2 {
+    color: $active;
 }
 
 .MODAL__modal-content-body-u3822b3b5 {
-    background-color: var($card-bg);
-    border-bottom: 1px solid var($border-color);
+    background-color: $card-bg;
+    border-bottom: 1px solid $border-color;
 }
 
 .custom-offer-package .milestone-banner {
-    background-color: var($card-bg);
-    border-bottom: 1px solid var($border-color);
-    border-top: 1px solid var($border-color);
+    background-color: $card-bg;
+    border-bottom: 1px solid $border-color;
+    border-top: 1px solid $border-color;
 }
 
 .custom-offer-package .method-one-delivery label {
-    background-color: var($card-bg);
-    border: 1px solid var($border-color);
+    background-color: $card-bg;
+    border: 1px solid $border-color;
 }
 
 .custom-offer-package .offer-scope .title {
-    background-color: var($card-bg);
-    border-bottom: 1px solid var($border-color);
-    border-top: 1px solid var($border-color);
+    background-color: $card-bg;
+    border-bottom: 1px solid $border-color;
+    border-top: 1px solid $border-color;
 }
 /*#endregion*/

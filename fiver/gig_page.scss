@@ -1,29 +1,29 @@
 @import 'variables';
 
-/* -----------------------------------------------------------------------------------------------     Gig page 02 sep 20 */
+/*#region gig pages*/
 
 .gig-page, .gig-page-wrapper {
     background-color: $background;
 }
 
-    .gig-page .gig-overview {
-        background: $background;
-    }
+.gig-page .gig-overview {
+    background: $background;
+}
 
-    .gig-page .gig-description {
-        background: $background;
-    }
+.gig-page .gig-description {
+    background: $background;
+}
 
-        .gig-page .gig-description .description-wrapper .description-content {
-            color: $text-color;
-        }
+.gig-page .gig-description .description-wrapper .description-content {
+    color: $text-color;
+}
 
 .gig-page-bottom {
     background-color: $background;
     border-top: 1px solid $border-color;
 }
 
-.gig-page .packages-tabs.triple input[id=package-tab-1]:checked ~ .nav-container label[for=package-tab-1], .gig-page .packages-tabs.triple input[id=package-tab-2]:checked ~ .nav-container label[for=package-tab-2], .gig-page .packages-tabs.triple input[id=package-tab-3]:checked ~ .nav-container label[for=package-tab-3], .gig-page .packages-tabs.triple input[id=package-tab-4]:checked ~ .nav-container label[for=package-tab-4] {
+.gig-page .packages-tabs.triple input[id=package-tab-1]:checked~.nav-container label[for=package-tab-1], .gig-page .packages-tabs.triple input[id=package-tab-2]:checked~.nav-container label[for=package-tab-2], .gig-page .packages-tabs.triple input[id=package-tab-3]:checked~.nav-container label[for=package-tab-3], .gig-page .packages-tabs.triple input[id=package-tab-4]:checked~.nav-container label[for=package-tab-4] {
     color: #1dbf73;
     border-bottom: 3px solid #1dbf73;
     background-color: $card-bg;
@@ -35,11 +35,11 @@
     border: 1px solid $border-color;
 }
 
-@media only screen and (min-width: 900px) {
-    .gig-page .packages-tabs {
-        border: 1px solid $border-color;
-        margin: 0;
-    }
+@media only screen and (min-width: 900px){
+.gig-page .packages-tabs {
+    border: 1px solid $border-color;
+    margin: 0;
+}
 }
 
 .gig-page .packages-tabs form {
@@ -47,11 +47,11 @@
 }
 
 .gig-page .seller-card .stats-desc {
-    border: 1px solid $backgrond;
+    border: 1px solid $background;
 }
 
 .gig-page .seller-card .seller-desc {
-    border-top: 1px solid $backgrond;
+    border-top: 1px solid $background;
 }
 
 .seller-card, .status-filter-bar, .fiverr-learn, .mp-seller-profile article, .user-page-reviews-package > :nth-child(n), .gig-card-base:not(.list-view-card), .mp-seller-profile .form-thin article, .seller-card .seller-link, .gig-card-base h3, .reviews-package .review-description p, .reviews-package .country .country-name, .mp-seller-profile .form-thin article .inner-row.social-account ul li.is-selected, .mp-seller-profile .form-thin article .inner-row.social-account ul li.is-selected span, .mp-seller-profile .form-thin article .inner-row.skills .skill-bubble, .mp-seller-profile .form-thin article .inner-row.skills .recommendation-wrapper .skill-bubble, .mp-seller-profile .form-thin article .inner-row .items-list .title {
@@ -61,10 +61,10 @@
 }
 
 @media only screen and (min-width: 600px) {
-    .gig-page-wrapper .contact-seller-wrapper {
-        background-color: $card-bg;
-        padding: 24px;
-    }
+	.gig-page-wrapper .contact-seller-wrapper {
+    background-color: $card-bg;
+    padding: 24px;
+}
 }
 
 .gig-page .packages-tabs form footer .btn-compare-packages {
@@ -80,12 +80,119 @@
     background: $background;
 }
 
-    .gig-page .faq-collapsable .fit-collapsible:not(:last-child) {
-        border-bottom: 1px solid $border-color;
-    }
+.gig-page .faq-collapsable .fit-collapsible:not(:last-child) {
+    border-bottom: 1px solid $border-color;
+}
 
 .gig-page .gig-description .metadata {
     border-top: 1px solid $border-color;
 }
 
-/* -----------------------------------------------------------------------------------------------     Gig page 02 sep 20 */
+.db-new-main-table table tbody tr {
+    background-color: $background;
+    border: 1px $border-color solid;
+}
+
+.db-manage-gigs table td.gig-stats {
+    background-color: $card-bg;
+}
+
+.date, .see-more, .profile-40, .applications, .hidden-action, .js-filter-title, .sort-by, .db-new-main-table table thead tr, .db-new-main-table > table > tbody > tr > td, .db-load-more a, .tags-standard.tags-white-bg a, .tags-standard.tags-white-bg span {
+    background-color: $panel-heading-bg;
+}
+
+.db-manage-gigs table td.gig-stats .gig-extra-area .gig-extra-area-section {
+    display: inline-block;
+    padding-left: 40px;
+    border-left: 1px solid $border-color;
+}
+
+.db-manage-gigs table td.gig-stats .gig-extra-area {
+    border-top: 1px solid $border-color;
+}
+
+.db-manage-gigs table td.gig-stats>div.graph-container {
+    border-top: 1px $border-color solid;
+}
+
+.db-manage-gigs table td.gig-stats>div:first-child {
+    border-right: 1px solid $border-color;
+}
+
+.reviews-package {
+    background-color: $background;
+}
+
+.seller-tests-wrapper {
+    border-bottom: 1px solid $border-color;
+}
+
+.gig-wrapper.card-sml {
+    background-color: $card-bg;
+    border: 1px solid $border-color;
+}
+
+.gig-page-wrapper .top-nav>nav>ul li:after {
+    background: $border-color;
+}
+
+.gig-page-wrapper .top-nav>nav>ul li.selected a:hover {
+    color: $active;
+}
+
+.gig-page-packages-table {
+    background-color: $background;
+}
+
+.gig-page-packages-table table {
+    border: 1px solid $border-color;
+}
+
+.gig-page-packages-table tr:nth-child(2n+3):not(.select-package):not(.description) {
+    background-color: $border-color;
+}
+
+.gig-page-packages-table tr.select-package {
+    border-top: 1px solid $border-color;
+}
+
+.gig-page-packages-table col {
+    border-right: 1px solid $border-color;
+}
+
+.gig-page-top .top-panel-wrap .top-panel {
+    background: $panel-heading-bg;
+    border: 1px solid $border-color;
+}
+
+.gig-page .gig-tags-container li a {
+    background: $panel-heading-bg;
+    color: #95979d;
+    border: 1px solid $border-color;
+}
+
+.gig-gallery-component .gallery-slideshow .slideshow-slide .slide {
+    background-color: $background;
+    border: 1px solid $background;
+}
+
+.gig-gallery-component .gallery-slideshow>.nav-prev {
+    background-color: $panel-heading-bg;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+}
+
+.gig-page .gig-gallery-component .gallery-thumbnails {
+    background: $border-color;
+}
+
+.gig-page .custom-order {
+    background: $card-bg;
+    border: 1px solid $border-color;
+}
+
+.gig-page-wrapper .top-nav {
+    border-bottom: 1px solid $border-color;
+}
+
+/*#endregion*/  
