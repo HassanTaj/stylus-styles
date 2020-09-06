@@ -1,4 +1,23 @@
-@import "variables";
+/*
+    Open Source Repository for fiverr dark theme
+*/
+
+* {
+    --header-background: #181A1B;
+    --card-bg: #181A1B;
+    --background: #1D1F20;
+    --background-hover: rgb(22, 23, 24);
+    --active: #1dbf73;
+    --border-color: rgb(55, 59, 62);
+    --text-color: #949494;
+    --text-azure: #1fd0b6;
+    --panel-heading-bg: rgb(55, 59, 62);
+    --text-heading: #cdcdc8;
+}
+
+body {
+    color: var(--text-color);
+}
 
 /*#region stylus version 1 */
 
@@ -14,6 +33,10 @@ body {
 .standalone-nav-bar>div .categories-menu-package {
     background-color: $background;
 }
+
+    .standalone-nav-bar > div .categories-menu-package {
+        background-color: var(--background);
+    }
 
 .standalone-nav-bar {
     border-bottom: 1px solid $border-color;
@@ -235,13 +258,13 @@ h5,
 /*#region Inbox Styling*/
 .inbox_perseus,
 .contacts-container header,
-.contacts-list>.contact.active-contact,
+.contacts-list > .contact.active-contact,
 .route,
-#conversation>header,
-.textarea-container textarea .message-flow .content>div .message:hover,
+#conversation > header,
+.textarea-container textarea .message-flow .content > div .message:hover,
 .message-box,
 .contacts-container,
-.contacts-list>.contact,
+.contacts-list > .contact,
 .message-box,
 .message-box .textarea-container textarea,
 .message-box .message-uploader-container,
@@ -312,17 +335,17 @@ h5,
 .js-filter-title,
 .sort-by,
 .db-new-main-table table thead tr,
-.db-new-main-table>table>tbody>tr>td,
+.db-new-main-table > table > tbody > tr > td,
 .db-load-more a,
 .tags-standard.tags-white-bg a,
 .tags-standard.tags-white-bg span {
     background-color: #181A1B;
 }
 
-body.pro-experience .db-new-main-table table tbody tr:hover td,
-.db-load-more a:hover {
-    background-color: rgb(30, 33, 34);
-}
+    body.pro-experience .db-new-main-table table tbody tr:hover td,
+    .db-load-more a:hover {
+        background-color: rgb(30, 33, 34);
+    }
 
 .db-load-more a,
 .tags-standard.tags-white-bg a,
@@ -339,13 +362,13 @@ input[type=search] {
     border-bottom: 1px solid #373C3E;
 }
 
-.db-new-main-table table td:first-child {
-    border-left: 1px solid #373C3E;
-}
+    .db-new-main-table table td:first-child {
+        border-left: 1px solid #373C3E;
+    }
 
-.db-new-main-table table td:last-child {
-    border-right: 1px solid #373C3E;
-}
+    .db-new-main-table table td:last-child {
+        border-right: 1px solid #373C3E;
+    }
 
 .db-new-filters .tabs {
     border-top: 1px solid #373C3E;
@@ -363,21 +386,6 @@ input[type=search],
 
 .db-new-filters .tabs li a:hover {
     color: #cdcdc8;
-}
-
-/*#endregion*/
-
-/*#region Footer*/
-.site-footer {
-    background-color: #1D1F20;
-}
-
-.footer-package .footer-collapsibles:after {
-    background-color: #373C3E;
-}
-
-.site-footer {
-    border-top: 1px solid #373C3E;
 }
 
 /*#endregion*/
@@ -506,6 +514,25 @@ input[type=search],
     fill: $border-color;
 }
 
+/*#endregion*/
+
+/*#region Buyer Dashboard*/
+.reviews-package .reviews-header,
+.reviews-package .review-list.no-ranking li,
+.reviews-package .load-more-wrapper,
+.reviews-package .review-list .review-item {
+    background-color: var(--background);
+    border-top: 1px solid var(--border-color);
+}
+
+.reviews-package .helpful-thumbs .helpful-thumb .thumb-title {
+    color: var(--text-color);
+}
+
+.reviews-package .review-description p,
+.user-page-perseus .gigs-reviews-panel .reviews-wrapper .reviews-package + .reviews-package {
+    background-color: var(--background);
+}
 /*#endregion*/
 
 /*#region Earnings*/
@@ -644,9 +671,9 @@ select {
     border-color: $border-color;
 }
 
-.dropdown-menu li>a:hover,
-.dropdown-menu li>a:focus,
-.dropdown-menu li>a.selected,
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-menu li > a.selected,
 .dropdown-menu li input[type=submit]:hover,
 .dropdown-menu li input[type=submit]:focus,
 .dropdown-menu li input[type=submit].selected {
@@ -750,7 +777,7 @@ h2,
     background-color: $card-bg;
 }
 
-.fiverr-learn .course-list+footer {
+.fiverr-learn .course-list + footer {
     margin-top: 5px;
     border-top: 1px solid $border-color;
     padding-top: 15px;
