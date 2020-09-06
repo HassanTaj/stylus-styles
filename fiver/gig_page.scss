@@ -176,7 +176,7 @@
     border: 1px solid $background;
 }
 
-.gig-gallery-component .gallery-slideshow>.nav-prev {
+.gig-gallery-component .gallery-slideshow>.nav-next, .gig-gallery-component .gallery-slideshow>.nav-prev  {
     background-color: $panel-heading-bg;
     -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
@@ -195,4 +195,10 @@
     border-bottom: 1px solid $border-color;
 }
 
+.gig-page-wrapper .top-nav>nav {
+    background: $header-background;
+}
+.gig-page-wrapper .top-nav>nav>ul li.selected a {
+    color: $active;
+}
 /*#endregion*/  
