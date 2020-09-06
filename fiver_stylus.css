@@ -1,10 +1,5 @@
 /*
-------------The colors are divided into four main patterns. 
----background-color
----hover color (:hover)
----border-color
----text color (color)
-
+    Open Source Repository for fiverr dark theme
 */
 
 * {
@@ -38,20 +33,155 @@ body {
     background: #1dbf73;
 }
 
-::-webkit-scrollbar-thumb:hover {
-    background: #169a5c;
-}
+    ::-webkit-scrollbar-thumb:hover {
+        background: #169a5c;
+    }
 
 /*#endregion */
 
+/*#region Header*/
+.header-row-wrapper,
+.nav-popover-items-content,
+.toggler-popover aside.bottom .tip:after {
+    background-color: var(--header-background);
+}
+
+.fiverr-header .header-row-wrapper {
+    border-bottom: 1px solid #373C3E;
+}
+
+.toggler-popover aside {
+    border: 1px solid #373C3E;
+}
+
+.fiverr-nav .nav-popover-items-content .divider {
+    border-top: 1px solid #373C3E;
+}
+
+/* navigation bar drop down  */
+.categories-menu-package .categories > li.open > ul {
+    background: var(--background);
+    border: 1px solid var(--border-color);
+    -webkit-box-shadow: 0 1px 3px var(--border-color);
+    box-shadow: 0 1px 3px var(--border-color);
+}
+
+.categories-menu-package .sub-menu-item.linked-title > p {
+    color: var(--text-color);
+}
+
+/*  popover */
+.popover-notifications-drawer .tab-switch {
+    background: var(--background);
+    color: var(--text-color);
+}
+
+.popover-notifications-drawer .drawer-item.read {
+    background: var(--background);
+}
+
+.popover-notifications-drawer .drawer-item:not(:last-child) {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.popover-notifications-drawer .wrapper > header {
+    border-bottom: 1px solid var(--border-color);
+}
+
+.toggler-popover aside {
+    background-color: var(--background);
+    position: absolute;
+    z-index: 1001;
+    border: 1px solid var(--border-color);
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, .05);
+}
+
+.popover-notifications-drawer .items-list {
+    height: 100%;
+    width: 100%;
+    background: var(--background);
+}
+
+.popover-notifications-drawer .wrapper > footer {
+    border-top: 1px solid var(--border-color);
+    height: 32px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.popover-notifications-drawer .wrapper > header button:not(:first-child) {
+    border-left: 1px solid var(--border-color);
+}
+
+.popover-notifications-drawer .drawer-item.read .content:after {
+    background: -webkit-gradient(linear, right top, left top, from(var(--border-color)), to(hsla(0, 0%, 100%, 0)));
+    background: -o-linear-gradient(right, var(--border-color), hsla(0, 0%, 100%, 0));
+    background: linear-gradient(270deg, var(--border-color), hsla(0, 0%, 100%, 0));
+}
+
+/* the triangle */
+.toggler-popover aside.bottom .tip:after {
+    top: 1px;
+    border-bottom-color: var(--border-color);
+}
+
+drawer .drawer-item.read .content:after {
+    background: -webkit-gradient(linear, right top, left top, from(var(--border-color)), to(hsla(0, 0%, 100%, 0)));
+    background: -o-linear-gradient(right, var(--border-color), hsla(0, 0%, 100%, 0));
+    background: linear-gradient(270deg, var(--border-color), hsla(0, 0%, 100%, 0));
+}
+
+drawer .drawer-item .main-action {
+    color: var(--text-color);
+}
+
+/*#endregion Header Ends*/
+
 /*#region profile page*/
+.seller-card,
+.status-filter-bar,
+.fiverr-learn,
+.mp-seller-profile article,
+.user-page-reviews-package > :nth-child(n),
+.gig-card-base:not(.list-view-card),
+.mp-seller-profile .form-thin article,
+.seller-card .seller-link,
+.gig-card-base h3,
+.reviews-package .review-description p,
+.reviews-package .country .country-name,
+.mp-seller-profile .form-thin article .inner-row.social-account ul li.is-selected,
+.mp-seller-profile .form-thin article .inner-row.social-account ul li.is-selected span,
+.mp-seller-profile .form-thin article .inner-row.skills .skill-bubble,
+.mp-seller-profile .form-thin article .inner-row.skills .recommendation-wrapper .skill-bubble,
+.mp-seller-profile .form-thin article .inner-row .items-list .title {
+    background-color: #181A1B;
+    border-color: rgb(55, 59, 62);
+    color: #cdcdc8;
+}
+
+    .mp-seller-profile .form-thin article .inner-row.social-account ul li:hover,
+    .mp-seller-profile .form-thin article .inner-row.skills .skill-bubble:hover,
+    .mp-seller-profile .form-thin article .inner-row.skills .skill-bubble .animate {
+        background-color: rgb(27, 29, 30);
+        border-color: rgb(55, 59, 62);
+    }
+
+    .status-filter-bar li.selected-filter,
+    h5,
+    .text-display-5,
+    .mp-seller-profile .form-thin article h3 {
+        color: #d9d9d9;
+    }
+
 .standalone-nav-bar {
     background-color: var(--background);
 }
 
-.standalone-nav-bar>div .categories-menu-package {
-    background-color: var(--background);
-}
+    .standalone-nav-bar > div .categories-menu-package {
+        background-color: var(--background);
+    }
 
 .standalone-nav-bar {
     border-bottom: 1px solid var(--border-color);
@@ -63,30 +193,30 @@ body {
     color: #cdcdc8;
 }
 
-.seller-card .user-stats {
-    border-top: 1px solid var(--background);
-}
+    .seller-card .user-stats {
+        border-top: 1px solid var(--background);
+    }
 
 .user-page-perseus .seller-profile {
     border: 1px solid var(--border-color);
     background: var(--card-bg);
 }
 
-.user-page-perseus .seller-profile>div {
-    border-bottom: 1px solid var(--border-color);
-}
+    .user-page-perseus .seller-profile > div {
+        border-bottom: 1px solid var(--border-color);
+    }
 
-.user-page-perseus .seller-profile .skills li {
-    border: 1px solid var(--border-color);
-}
+    .user-page-perseus .seller-profile .skills li {
+        border: 1px solid var(--border-color);
+    }
 
 .user-page-perseus {
     background: var(--background);
 }
 
-.user-page-perseus .seller-profile .skills li a {
-    color: var(--text-color);
-}
+    .user-page-perseus .seller-profile .skills li a {
+        color: var(--text-color);
+    }
 
 h3,
 .text-display-3 {
@@ -97,7 +227,7 @@ h3,
     background: var(--background);
 }
 
-.mp-seller-profile .form-thin article>form {
+.mp-seller-profile .form-thin article > form {
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -107,10 +237,10 @@ h3,
     border: 1px solid var(--border-color);
 }
 
-.gig-wrapper.card footer {
-    clear: both;
-    border-top: 1px solid var(--border-color);
-}
+    .gig-wrapper.card footer {
+        clear: both;
+        border-top: 1px solid var(--border-color);
+    }
 
 .gig-wrapper h3 a {
     cursor: pointer;
@@ -137,14 +267,14 @@ input[type=search] {
     background-color: var(--background);
 }
 
-.gig-page-wrapper .top-nav>nav {
-    background: var(--background);
-}
+    .gig-page-wrapper .top-nav > nav {
+        background: var(--background);
+    }
 
-.gig-page-wrapper .top-nav>nav>ul li.selected a {
-    color: var(--active);
-    cursor: default;
-}
+        .gig-page-wrapper .top-nav > nav > ul li.selected a {
+            color: var(--active);
+            cursor: default;
+        }
 
 .db-new-filters .tabs li a.sel,
 .db-new-filters .tabs li a:hover,
@@ -161,17 +291,17 @@ input[type=search] {
     position: relative;
 }
 
-.db-new-filters .tabs li.pointer {
-    border-bottom: 10px solid var(--border-color);
-    border-right: 10px solid transparent;
-    border-left: 10px solid transparent;
-}
+    .db-new-filters .tabs li.pointer {
+        border-bottom: 10px solid var(--border-color);
+        border-right: 10px solid transparent;
+        border-left: 10px solid transparent;
+    }
 
-.db-new-filters .tabs li.pointer:before {
-    border-bottom: 9px solid var(--border-color);
-    border-right: 9px solid transparent;
-    border-left: 9px solid transparent;
-}
+        .db-new-filters .tabs li.pointer:before {
+            border-bottom: 9px solid var(--border-color);
+            border-right: 9px solid transparent;
+            border-left: 9px solid transparent;
+        }
 
 .dropdown-menu {
     background-color: var(--background);
@@ -200,27 +330,27 @@ input[type=search] {
     background-color: var(--background);
 }
 
-.gig-page .gig-overview {
-    background: var(--background);
-}
+    .gig-page .gig-overview {
+        background: var(--background);
+    }
 
-.gig-page .gig-description {
-    background: var(--background);
-}
+    .gig-page .gig-description {
+        background: var(--background);
+    }
 
-.gig-page .gig-description .description-wrapper .description-content {
-    color: var(--text-color);
-}
+        .gig-page .gig-description .description-wrapper .description-content {
+            color: var(--text-color);
+        }
 
 .gig-page-bottom {
     background-color: var(--background);
     border-top: 1px solid var(--border-color);
 }
 
-.gig-page .packages-tabs.triple input[id=package-tab-1]:checked~.nav-container label[for=package-tab-1],
-.gig-page .packages-tabs.triple input[id=package-tab-2]:checked~.nav-container label[for=package-tab-2],
-.gig-page .packages-tabs.triple input[id=package-tab-3]:checked~.nav-container label[for=package-tab-3],
-.gig-page .packages-tabs.triple input[id=package-tab-4]:checked~.nav-container label[for=package-tab-4] {
+.gig-page .packages-tabs.triple input[id=package-tab-1]:checked ~ .nav-container label[for=package-tab-1],
+.gig-page .packages-tabs.triple input[id=package-tab-2]:checked ~ .nav-container label[for=package-tab-2],
+.gig-page .packages-tabs.triple input[id=package-tab-3]:checked ~ .nav-container label[for=package-tab-3],
+.gig-page .packages-tabs.triple input[id=package-tab-4]:checked ~ .nav-container label[for=package-tab-4] {
     color: #1dbf73;
     border-bottom: 3px solid #1dbf73;
     background-color: var(--card-bg);
@@ -255,7 +385,7 @@ input[type=search] {
 .status-filter-bar,
 .fiverr-learn,
 .mp-seller-profile article,
-.user-page-reviews-package> :nth-child(n),
+.user-page-reviews-package > :nth-child(n),
 .gig-card-base:not(.list-view-card),
 .mp-seller-profile .form-thin article,
 .seller-card .seller-link,
@@ -292,9 +422,9 @@ input[type=search] {
     background: var(--background);
 }
 
-.gig-page .faq-collapsable .fit-collapsible:not(:last-child) {
-    border-bottom: 1px solid var(--border-color);
-}
+    .gig-page .faq-collapsable .fit-collapsible:not(:last-child) {
+        border-bottom: 1px solid var(--border-color);
+    }
 
 .gig-page .gig-description .metadata {
     border-top: 1px solid var(--border-color);
@@ -302,154 +432,16 @@ input[type=search] {
 
 /*#endregion*/
 
-/*#region Header*/
-.header-row-wrapper,
-.nav-popover-items-content,
-.toggler-popover aside.bottom .tip:after {
-    background-color: var(--header-background);
-}
-
-.fiverr-header .header-row-wrapper {
-    border-bottom: 1px solid #373C3E;
-}
-
-.toggler-popover aside {
-    border: 1px solid #373C3E;
-}
-
-.fiverr-nav .nav-popover-items-content .divider {
-    border-top: 1px solid #373C3E;
-}
-
-/* navigation bar drop down  */
-.categories-menu-package .categories>li.open>ul {
-    background: var(--background);
-    border: 1px solid var(--border-color);
-    -webkit-box-shadow: 0 1px 3px var(--border-color);
-    box-shadow: 0 1px 3px var(--border-color);
-}
-
-.categories-menu-package .sub-menu-item.linked-title>p {
-    color: var(--text-color);
-}
-
-/*  popover */
-.popover-notifications-drawer .tab-switch {
-    background: var(--background);
-    color: var(--text-color);
-}
-
-.popover-notifications-drawer .drawer-item.read {
-    background: var(--background);
-}
-
-.popover-notifications-drawer .drawer-item:not(:last-child) {
-    border-bottom: 1px solid var(--border-color);
-}
-
-.popover-notifications-drawer .wrapper>header {
-    border-bottom: 1px solid var(--border-color);
-}
-
-.toggler-popover aside {
-    background-color: var(--background);
-    position: absolute;
-    z-index: 1001;
-    border: 1px solid var(--border-color);
-    border-radius: 3px;
-    -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, .05);
-    box-shadow: 0 0 5px 1px rgba(0, 0, 0, .05);
-}
-
-.popover-notifications-drawer .items-list {
-    height: 100%;
-    width: 100%;
-    background: var(--background);
-}
-
-.popover-notifications-drawer .wrapper>footer {
-    border-top: 1px solid var(--border-color);
-    height: 32px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.popover-notifications-drawer .wrapper>header button:not(:first-child) {
-    border-left: 1px solid var(--border-color);
-}
-
-.popover-notifications-drawer .drawer-item.read .content:after {
-    background: -webkit-gradient(linear, right top, left top, from(var(--border-color)), to(hsla(0, 0%, 100%, 0)));
-    background: -o-linear-gradient(right, var(--border-color), hsla(0, 0%, 100%, 0));
-    background: linear-gradient(270deg, var(--border-color), hsla(0, 0%, 100%, 0));
-}
-
-/* the triangle */
-.toggler-popover aside.bottom .tip:after {
-    top: 1px;
-    border-bottom-color: var(--border-color);
-}
-
-drawer .drawer-item.read .content:after {
-    background: -webkit-gradient(linear, right top, left top, from(var(--border-color)), to(hsla(0, 0%, 100%, 0)));
-    background: -o-linear-gradient(right, var(--border-color), hsla(0, 0%, 100%, 0));
-    background: linear-gradient(270deg, var(--border-color), hsla(0, 0%, 100%, 0));
-}
-
-drawer .drawer-item .main-action {
-    color: var(--text-color);
-}
-
-/*#endregion Header Ends*/
-
-/*#region Profile Page*/
-.seller-card,
-.status-filter-bar,
-.fiverr-learn,
-.mp-seller-profile article,
-.user-page-reviews-package> :nth-child(n),
-.gig-card-base:not(.list-view-card),
-.mp-seller-profile .form-thin article,
-.seller-card .seller-link,
-.gig-card-base h3,
-.reviews-package .review-description p,
-.reviews-package .country .country-name,
-.mp-seller-profile .form-thin article .inner-row.social-account ul li.is-selected,
-.mp-seller-profile .form-thin article .inner-row.social-account ul li.is-selected span,
-.mp-seller-profile .form-thin article .inner-row.skills .skill-bubble,
-.mp-seller-profile .form-thin article .inner-row.skills .recommendation-wrapper .skill-bubble,
-.mp-seller-profile .form-thin article .inner-row .items-list .title {
-    background-color: #181A1B;
-    border-color: rgb(55, 59, 62);
-    color: #cdcdc8;
-}
-
-.mp-seller-profile .form-thin article .inner-row.social-account ul li:hover,
-.mp-seller-profile .form-thin article .inner-row.skills .skill-bubble:hover,
-.mp-seller-profile .form-thin article .inner-row.skills .skill-bubble .animate {
-    background-color: rgb(27, 29, 30);
-    border-color: rgb(55, 59, 62);
-}
-
-.status-filter-bar li.selected-filter,
-h5,
-.text-display-5,
-.mp-seller-profile .form-thin article h3 {
-    color: #d9d9d9;
-}
-
-/*#endregion*/
-
 /*#region Inbox Styling*/
 .inbox_perseus,
 .contacts-container header,
-.contacts-list>.contact.active-contact,
+.contacts-list > .contact.active-contact,
 .route,
-#conversation>header,
-.textarea-container textarea .message-flow .content>div .message:hover,
+#conversation > header,
+.textarea-container textarea .message-flow .content > div .message:hover,
 .message-box,
 .contacts-container,
-.contacts-list>.contact,
+.contacts-list > .contact,
 .message-box,
 .message-box .textarea-container textarea,
 .message-box .message-uploader-container,
@@ -458,52 +450,52 @@ h5,
     background-color: #1D1F20;
 }
 
-.route,
-#conversation>header,
-.contacts-list>.contact,
-.contacts-container header,
-.contacts-container,
-.message-box .message-uploader-container,
-.contact-label,
-.search-bar-package form input,
-.details-pane .orders .order-card,
-.details-pane {
-    border-color: rgb(55, 59, 62)
-}
+    .route,
+    #conversation > header,
+    .contacts-list > .contact,
+    .contacts-container header,
+    .contacts-container,
+    .message-box .message-uploader-container,
+    .contact-label,
+    .search-bar-package form input,
+    .details-pane .orders .order-card,
+    .details-pane {
+        border-color: rgb(55, 59, 62)
+    }
 
 
-/*hovering color*/
-.contacts-list>.contact:hover,
-.details-pane .orders .order-card:hover,
-.message:hover {
-    background-color: rgb(27, 29, 30);
-}
+        /*hovering color*/
+        .contacts-list > .contact:hover,
+        .details-pane .orders .order-card:hover,
+        .message:hover {
+            background-color: rgb(27, 29, 30);
+        }
 
 
-#conversation .message-flow .message-content .message-body,
-.message .sender,
-.contacts-list>.contact p,
-.fiverr-message h6,
-.fiverr-message p,
-.fiverr-message a,
-.contacts-list>.contact strong,
-.fiverr-message button,
-.button-link,
-.related-to a .text-wrapper p,
-.related-to a .text-wrapper p,
-.details-pane .summary .username,
-.user-level,
-.details-pane li,
-.details-pane .orders .active-order,
-.details-pane .orders .order-card .order-info .order-status small,
-.details-pane .orders .order-card .order-info .delivery-time span,
-.fa-clock-o:before,
-.message-box .textarea-container textarea,
-.details-pane h2 #conversation>header .upper-row .user-info h,
-#conversation>header .upper-row .user-info h1,
-.contact-label {
-    color: #cdcdc8;
-}
+        #conversation .message-flow .message-content .message-body,
+        .message .sender,
+        .contacts-list > .contact p,
+        .fiverr-message h6,
+        .fiverr-message p,
+        .fiverr-message a,
+        .contacts-list > .contact strong,
+        .fiverr-message button,
+        .button-link,
+        .related-to a .text-wrapper p,
+        .related-to a .text-wrapper p,
+        .details-pane .summary .username,
+        .user-level,
+        .details-pane li,
+        .details-pane .orders .active-order,
+        .details-pane .orders .order-card .order-info .order-status small,
+        .details-pane .orders .order-card .order-info .delivery-time span,
+        .fa-clock-o:before,
+        .message-box .textarea-container textarea,
+        .details-pane h2 #conversation > header .upper-row .user-info h,
+        #conversation > header .upper-row .user-info h1,
+        .contact-label {
+            color: #cdcdc8;
+        }
 
 /*#endregion*/
 
@@ -520,17 +512,17 @@ h5,
 .js-filter-title,
 .sort-by,
 .db-new-main-table table thead tr,
-.db-new-main-table>table>tbody>tr>td,
+.db-new-main-table > table > tbody > tr > td,
 .db-load-more a,
 .tags-standard.tags-white-bg a,
 .tags-standard.tags-white-bg span {
     background-color: #181A1B;
 }
 
-body.pro-experience .db-new-main-table table tbody tr:hover td,
-.db-load-more a:hover {
-    background-color: rgb(30, 33, 34);
-}
+    body.pro-experience .db-new-main-table table tbody tr:hover td,
+    .db-load-more a:hover {
+        background-color: rgb(30, 33, 34);
+    }
 
 .db-load-more a,
 .tags-standard.tags-white-bg a,
@@ -547,13 +539,13 @@ input[type=search] {
     border-bottom: 1px solid #373C3E;
 }
 
-.db-new-main-table table td:first-child {
-    border-left: 1px solid #373C3E;
-}
+    .db-new-main-table table td:first-child {
+        border-left: 1px solid #373C3E;
+    }
 
-.db-new-main-table table td:last-child {
-    border-right: 1px solid #373C3E;
-}
+    .db-new-main-table table td:last-child {
+        border-right: 1px solid #373C3E;
+    }
 
 .db-new-filters .tabs {
     border-top: 1px solid #373C3E;
@@ -571,21 +563,6 @@ input[type=search],
 
 .db-new-filters .tabs li a:hover {
     color: #cdcdc8;
-}
-
-/*#endregion*/
-
-/*#region Footer*/
-.site-footer {
-    background-color: #1D1F20;
-}
-
-.footer-package .footer-collapsibles:after {
-    background-color: #373C3E;
-}
-
-.site-footer {
-    border-top: 1px solid #373C3E;
 }
 
 /*#endregion*/
@@ -696,24 +673,43 @@ input[type=search],
     color: var(--text-color);
 }
 
-.seller_dashboard_perseus .fit-select-option:hover {
-    background: var(--background);
-}
+    .seller_dashboard_perseus .fit-select-option:hover {
+        background: var(--background);
+    }
 
 .seller_dashboard_perseus .fit-select,
 .seller_dashboard_perseus .fit-select {
     border-color: var(--border-color);
 }
 
-.seller_dashboard_perseus .fit-select:focus,
-.seller_dashboard_perseus .fit-select:hover {
-    border-color: var(--border-color);
-}
+    .seller_dashboard_perseus .fit-select:focus,
+    .seller_dashboard_perseus .fit-select:hover {
+        border-color: var(--border-color);
+    }
 
 .seller_dashboard_perseus .fit-icon {
     fill: var(--border-color);
 }
 
+/*#endregion*/
+
+/*#region Buyer Dashboard*/
+.reviews-package .reviews-header,
+.reviews-package .review-list.no-ranking li,
+.reviews-package .load-more-wrapper,
+.reviews-package .review-list .review-item {
+    background-color: var(--background);
+    border-top: 1px solid var(--border-color);
+}
+
+.reviews-package .helpful-thumbs .helpful-thumb .thumb-title {
+    color: var(--text-color);
+}
+
+.reviews-package .review-description p,
+.user-page-perseus .gigs-reviews-panel .reviews-wrapper .reviews-package + .reviews-package {
+    background-color: var(--background);
+}
 /*#endregion*/
 
 /*#region Earnings*/
@@ -722,11 +718,11 @@ input[type=search],
     border: 1px var(--border-color) solid;
 }
 
-.db-stats-standard a,
-.db-stats-standard>span {
-    color: var(--text-color) !important;
-    border-left: 1px solid var(--border-color);
-}
+    .db-stats-standard a,
+    .db-stats-standard > span {
+        color: var(--text-color) !important;
+        border-left: 1px solid var(--border-color);
+    }
 
 .db-new-header h1 .money-expected {
     color: var(--text-color);
@@ -760,9 +756,9 @@ input[type=search],
     border: 1px var(--border-color) solid;
 }
 
-.db-sales-promotion .form-row:last-child {
-    border-bottom: 1px var(--border-color) solid;
-}
+    .db-sales-promotion .form-row:last-child {
+        border-bottom: 1px var(--border-color) solid;
+    }
 
 /*#endregion*/
 
@@ -772,9 +768,9 @@ input[type=search],
     border: 1px var(--border-color) solid;
 }
 
-.db-manage-requests .db-empty-state ul li h3 {
-    color: var(--text-azure);
-}
+    .db-manage-requests .db-empty-state ul li h3 {
+        color: var(--text-azure);
+    }
 
 /*#endregion*/
 
@@ -809,38 +805,38 @@ input[type=week] {
     border: 1px var(--border-color) solid;
 }
 
-textarea:active,
-textarea:focus,
-input[type=date]:active,
-input[type=date]:focus,
-input[type=datetime]:active,
-input[type=datetime]:focus,
-input[type=datetime-local]:active,
-input[type=datetime-local]:focus,
-input[type=email]:active,
-input[type=email]:focus,
-input[type=month]:active,
-input[type=month]:focus,
-input[type=number]:active,
-input[type=number]:focus,
-input[type=password]:active,
-input[type=password]:focus,
-input[type=search]:active,
-input[type=search]:focus,
-input[type=tel]:active,
-input[type=tel]:focus,
-input[type=text]:active,
-input[type=text]:focus,
-input[type=time]:active,
-input[type=time]:focus,
-input[type=url]:active,
-input[type=url]:focus,
-input[type=week]:active,
-input[type=week]:focus {
-    border: 1px #1dbf73 solid;
-    color: var(--text-color);
-    box-shadow: inset 2px 2px 2px var(--border-color);
-}
+    textarea:active,
+    textarea:focus,
+    input[type=date]:active,
+    input[type=date]:focus,
+    input[type=datetime]:active,
+    input[type=datetime]:focus,
+    input[type=datetime-local]:active,
+    input[type=datetime-local]:focus,
+    input[type=email]:active,
+    input[type=email]:focus,
+    input[type=month]:active,
+    input[type=month]:focus,
+    input[type=number]:active,
+    input[type=number]:focus,
+    input[type=password]:active,
+    input[type=password]:focus,
+    input[type=search]:active,
+    input[type=search]:focus,
+    input[type=tel]:active,
+    input[type=tel]:focus,
+    input[type=text]:active,
+    input[type=text]:focus,
+    input[type=time]:active,
+    input[type=time]:focus,
+    input[type=url]:active,
+    input[type=url]:focus,
+    input[type=week]:active,
+    input[type=week]:focus {
+        border: 1px #1dbf73 solid;
+        color: var(--text-color);
+        box-shadow: inset 2px 2px 2px var(--border-color);
+    }
 
 .profile-form .form-divi {
     background-color: var(--border-color);
@@ -853,9 +849,9 @@ select {
     border-color: var(--border-color);
 }
 
-.dropdown-menu li>a:hover,
-.dropdown-menu li>a:focus,
-.dropdown-menu li>a.selected,
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-menu li > a.selected,
 .dropdown-menu li input[type=submit]:hover,
 .dropdown-menu li input[type=submit]:focus,
 .dropdown-menu li input[type=submit].selected {
@@ -901,10 +897,10 @@ hr {
     border: 1px var(--border-color) solid;
 }
 
-.top-bar .topbar-stats>ul>li {
-    color: #303030;
-    border-left: 1px solid var(--border-color);
-}
+    .top-bar .topbar-stats > ul > li {
+        color: #303030;
+        border-left: 1px solid var(--border-color);
+    }
 
 section.stats-section:nth-of-type(odd) {
     background-color: var(--card-bg);
@@ -959,7 +955,7 @@ h2,
     background-color: var(--card-bg);
 }
 
-.fiverr-learn .course-list+footer {
+.fiverr-learn .course-list + footer {
     margin-top: 5px;
     border-top: 1px solid var(--border-color);
     padding-top: 15px;
@@ -1031,7 +1027,7 @@ section.recent-conversations .order-status-lrg {
 .db-order-activity .order-status-lrg.border-bottom,
 .formed-requirements-wrapper .requirements-header,
 .old-requirements-style .requirements-header,
-.order-notes-wrapper.note-order-page .note-wrapper>p {
+.order-notes-wrapper.note-order-page .note-wrapper > p {
     border-bottom: 1 solid var(--border-color);
 }
 
@@ -1056,23 +1052,23 @@ textarea {
     border-top: 1px solid var(--border-color);
 }
 
-.db-order-activity .order-gig-detail table thead tr td,
-.order-review-posted .conv-message .review-summary a,
-.conv-message h4 {
-    color: var(--text-heading);
-}
+    .db-order-activity .order-gig-detail table thead tr td,
+    .order-review-posted .conv-message .review-summary a,
+    .conv-message h4 {
+        color: var(--text-heading);
+    }
 
-.db-order-activity .order-gig-detail table tbody tr td,
-.db-order-activity .order-gig-detail table tr.total td,
-.db-order-activity .order-gig-detail table tr.package-order h5,
-.formed-requirements-wrapper .requirements-view,
-.old-requirements-style .requirements-view,
-.formed-requirements-wrapper .requirements-view .requirement .requirement-body,
-.old-requirements-style .requirements-view .requirement .requirement-body,
-.order-seller-response .review-form-response .form-expanded label,
-.order-review-posted .conv-message .review-summary p {
-    color: var(--text-color);
-}
+    .db-order-activity .order-gig-detail table tbody tr td,
+    .db-order-activity .order-gig-detail table tr.total td,
+    .db-order-activity .order-gig-detail table tr.package-order h5,
+    .formed-requirements-wrapper .requirements-view,
+    .old-requirements-style .requirements-view,
+    .formed-requirements-wrapper .requirements-view .requirement .requirement-body,
+    .old-requirements-style .requirements-view .requirement .requirement-body,
+    .order-seller-response .review-form-response .form-expanded label,
+    .order-review-posted .conv-message .review-summary p {
+        color: var(--text-color);
+    }
 
 /*#endregion*/
 
@@ -1088,11 +1084,11 @@ textarea {
     border-bottom: 1px solid var(--border-color);
 }
 
-.custom-offer-package .select-gig button:hover {
-    background-color: var(--background-hover);
-}
+    .custom-offer-package .select-gig button:hover {
+        background-color: var(--background-hover);
+    }
 
-.MODAL__modal-content-header-ue9c13af0>h2,
+.MODAL__modal-content-header-ue9c13af0 > h2,
 .text-display-2 {
     color: var(--active);
 }
@@ -1118,4 +1114,19 @@ textarea {
     border-bottom: 1px solid var(--border-color);
     border-top: 1px solid var(--border-color);
 }
+/*#endregion*/
+
+/*#region Footer*/
+.site-footer {
+    background-color: #1D1F20;
+}
+
+.footer-package .footer-collapsibles:after {
+    background-color: #373C3E;
+}
+
+.site-footer {
+    border-top: 1px solid #373C3E;
+}
+
 /*#endregion*/
