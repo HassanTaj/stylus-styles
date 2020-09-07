@@ -476,7 +476,7 @@ input[type=search],
 
 @media only screen and (min-width: 600px) {
   .active-orders-wrapper .filter-wrapper {
-    background: #1D1F20;
+    background: #181A1B;
     border: 1px solid #373b3e;
   }
 }
