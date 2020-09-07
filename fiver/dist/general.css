@@ -1,0 +1,17 @@
+.search-bar-package .search-bar-panel {
+  border: 1px solid #373b3e;
+  background-color: #1D1F20;
+  color: #777;
+}
+
+.search-bar-package .search-bar-panel button.selected, .search-bar-package .search-bar-panel button:hover {
+  background-color: #373b3e;
+}
+
+.categories-menu-package .multi-panel .section-list {
+  border-right: 1px solid #373b3e;
+}
+
+.categories-menu-package .multi-panel .section-list > li.active {
+  background-color: #181A1B;
+}

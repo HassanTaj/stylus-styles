@@ -198,7 +198,69 @@
 .gig-page-wrapper .top-nav>nav {
     background: $header-background;
 }
+
 .gig-page-wrapper .top-nav>nav>ul li.selected a {
     color: $active;
+}
+
+.gig-page .gig-description .description-wrapper .description-content u {
+    background: $border-color;
+}
+
+.gig-page-wrapper .top-nav .gig-fav-wrapper .gig-fav .icn-heart, .gig-page-wrapper .top-nav .gig-fav-wrapper .gig-fav .icn-list {
+    border: 1px solid $border-color;
+}
+.gig-fav .icn-heart {
+    color: $text-color;
+}
+
+.gig-page-wrapper .top-nav .gig-fav-wrapper .collect-count {
+    color: $text-color;
+    border: 1px solid $border-color;
+}
+
+.gig-page-wrapper .top-nav .gig-fav-wrapper .collect-count:before {
+    border-color: transparent $border-color transparent transparent;
+}
+
+.gig-page-wrapper .top-nav .gig-fav-wrapper .collect-count:after {
+    border-color: transparent $border-color transparent transparent;
+}
+
+.gig-page-wrapper .top-nav .actions .btn-report-gig:not(.translation-button), .gig-page-wrapper .top-nav .actions .btn-sharing-link:not(.translation-button), .gig-page-wrapper .top-nav .actions .ugc-translation-button-wrapper button:not(.translation-button) {
+    border: 1px solid $border-color;
+}
+.gig-page-wrapper .top-nav .actions .btn-report-gig, .gig-page-wrapper .top-nav .actions .btn-sharing-link, .gig-page-wrapper .top-nav .actions .ugc-translation-button-wrapper button {
+    background: $panel-heading-bg;
+    color: #7a7d85;
+}
+
+.reviews-carousel .carousel-review-item {
+    border: 1px solid $border-color;
+}
+
+.reviews-package .reviews-header, .reviews-package .review-list.no-ranking li, .reviews-package .load-more-wrapper, .reviews-package .review-list .review-item {
+    background-color: $background;
+    border-top: 1px solid $background;
+}
+
+.slider-package .slick-slider .slick-arrow {
+    background-color: $border-color;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    border: 0;
+}
+.gig-page .gigs-recommended-for-you {
+    background-color: $background;
+    border: 1px solid $background;
+    padding: 32px 32px 48px;
+}
+
+.gig_page_perseus .fit-select {
+    border: 1px solid $border-color;
+}
+
+.reviews-package .preview-img .img-thumbnail {
+    border: 1px solid border-color;
 }
 /*#endregion*/  

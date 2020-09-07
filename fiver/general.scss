@@ -1,0 +1,19 @@
+@import "variables";
+
+.search-bar-package .search-bar-panel {
+    border: 1px solid $border-color;
+    background-color: $background;
+    color: #777;
+}
+
+.search-bar-package .search-bar-panel button.selected, .search-bar-package .search-bar-panel button:hover {
+    background-color: $border-color;
+}
+
+.categories-menu-package .multi-panel .section-list {
+    border-right: 1px solid $border-color;
+}
+.categories-menu-package .multi-panel .section-list>li.active {
+    background-color: $header-background;
+}
+

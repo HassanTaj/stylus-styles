@@ -198,4 +198,68 @@
   color: #1dbf73;
 }
 
+.gig-page .gig-description .description-wrapper .description-content u {
+  background: #373b3e;
+}
+
+.gig-page-wrapper .top-nav .gig-fav-wrapper .gig-fav .icn-heart, .gig-page-wrapper .top-nav .gig-fav-wrapper .gig-fav .icn-list {
+  border: 1px solid #373b3e;
+}
+
+.gig-fav .icn-heart {
+  color: #949494;
+}
+
+.gig-page-wrapper .top-nav .gig-fav-wrapper .collect-count {
+  color: #949494;
+  border: 1px solid #373b3e;
+}
+
+.gig-page-wrapper .top-nav .gig-fav-wrapper .collect-count:before {
+  border-color: transparent #373b3e transparent transparent;
+}
+
+.gig-page-wrapper .top-nav .gig-fav-wrapper .collect-count:after {
+  border-color: transparent #373b3e transparent transparent;
+}
+
+.gig-page-wrapper .top-nav .actions .btn-report-gig:not(.translation-button), .gig-page-wrapper .top-nav .actions .btn-sharing-link:not(.translation-button), .gig-page-wrapper .top-nav .actions .ugc-translation-button-wrapper button:not(.translation-button) {
+  border: 1px solid #373b3e;
+}
+
+.gig-page-wrapper .top-nav .actions .btn-report-gig, .gig-page-wrapper .top-nav .actions .btn-sharing-link, .gig-page-wrapper .top-nav .actions .ugc-translation-button-wrapper button {
+  background: #373b3e;
+  color: #7a7d85;
+}
+
+.reviews-carousel .carousel-review-item {
+  border: 1px solid #373b3e;
+}
+
+.reviews-package .reviews-header, .reviews-package .review-list.no-ranking li, .reviews-package .load-more-wrapper, .reviews-package .review-list .review-item {
+  background-color: #1D1F20;
+  border-top: 1px solid #1D1F20;
+}
+
+.slider-package .slick-slider .slick-arrow {
+  background-color: #373b3e;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+  border: 0;
+}
+
+.gig-page .gigs-recommended-for-you {
+  background-color: #1D1F20;
+  border: 1px solid #1D1F20;
+  padding: 32px 32px 48px;
+}
+
+.gig_page_perseus .fit-select {
+  border: 1px solid #373b3e;
+}
+
+.reviews-package .preview-img .img-thumbnail {
+  border: 1px solid border-color;
+}
+
 /*#endregion*/
