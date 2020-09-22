@@ -119,6 +119,12 @@
     border-right: 1px solid $border-color;
 }
 
+.db-new-main-table table thead tr.header-filter .dropdown .dropdown-toggle {
+    border-color: lighten($border-color, 10%);
+}
+.db-new-main-table table td .dropdown-toggle, .db-new-main-table table td .dropdown-toggle.no-content {
+    border-color: lighten($border-color, 10%);
+}
 .reviews-package {
     background-color: $background;
 }
@@ -261,6 +267,6 @@
 }
 
 .reviews-package .preview-img .img-thumbnail {
-    border: 1px solid border-color;
+    border: 1px solid $border-color;
 }
 /*#endregion*/  

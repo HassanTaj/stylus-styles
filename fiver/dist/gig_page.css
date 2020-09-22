@@ -114,6 +114,14 @@
   border-right: 1px solid #373b3e;
 }
 
+.db-new-main-table table thead tr.header-filter .dropdown .dropdown-toggle {
+  border-color: #4f5559;
+}
+
+.db-new-main-table table td .dropdown-toggle, .db-new-main-table table td .dropdown-toggle.no-content {
+  border-color: #4f5559;
+}
+
 .reviews-package {
   background-color: #1D1F20;
 }
@@ -259,7 +267,7 @@
 }
 
 .reviews-package .preview-img .img-thumbnail {
-  border: 1px solid border-color;
+  border: 1px solid #373b3e;
 }
 
 /*#endregion*/

@@ -377,10 +377,6 @@ input[type=search],
   color: #cdcdc8;
 }
 
-.db-new-filters .tabs li a:hover {
-  color: #cdcdc8;
-}
-
 .db-new-filters .tabs li.pointer {
   border-bottom: 10px solid #373b3e;
   border-right: 10px solid transparent;
@@ -391,6 +387,12 @@ input[type=search],
   border-bottom: 9px solid #373b3e;
   border-right: 9px solid transparent;
   border-left: 9px solid transparent;
+}
+
+.db-new-filters .tabs li a.sel,
+.db-new-filters .tabs li a:hover,
+.db-new-filters .tabs li a:active {
+  color: #1dbf73;
 }
 
 .db-new-main-table table td, .db-new-main-table table thead tr.header-filter td, .alt, .db-requests .offers-left, input[type=search] {
@@ -575,6 +577,11 @@ input[type=search],
   border: 1px solid #373b3e;
 }
 
+.earnings-package .withdraw-buttons-list .withdraw-button.disabled {
+  border-color: var(--border-color);
+  color: #b5b6ba;
+}
+
 /* .earnings-package .withdraw-buttons-list .withdraw-button.disabled {
     border-color: rgb(139 3 3;
     color: #b5b6ba;
@@ -687,6 +694,11 @@ select {
   border-color: #373b3e;
 }
 
+.dropdown-menu {
+  background-color: #181A1B;
+  border: 1px #373b3e solid;
+}
+
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
 .dropdown-menu li > a.selected,
@@ -696,6 +708,12 @@ select {
   background-image: none;
   background: #1D1F20;
   color: #1dbf73;
+}
+
+.fake-dropdown .dropdown-toggle {
+  background-color: #373b3e;
+  color: #777;
+  border: 1px #373b3e solid;
 }
 
 .session-management-package .session-row {
