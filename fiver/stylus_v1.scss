@@ -27,18 +27,9 @@ body {
 }
 
 /*#region profile page*/
-.standalone-nav-bar {
-    background-color: $background;
-}
-
-.standalone-nav-bar>div .categories-menu-package {
-    background-color: $background;
-}
-
-.standalone-nav-bar>div .categories-menu-package {
+.standalone-nav-bar, .standalone-nav-bar>div .categories-menu-package {
     background-color: $header-background;
 }
-
 .standalone-nav-bar {
     border-bottom: 1px solid $border-color;
 }
@@ -48,11 +39,15 @@ body {
     border-color: $border-color;
     color: #cdcdc8;
 }
-
+.seller-card .user-stats li.vacation {
+    border-top: 1px solid $border-color;
+}
 .seller-card .user-stats {
     border-top: 1px solid $background;
 }
-
+.seller-tests-wrapper .tests-wrapper h3.title {
+    color: $text-color;
+}
 .user-page-perseus .seller-profile {
     border: 1px solid $border-color;
     background: $card-bg;
@@ -391,19 +386,24 @@ input[type=search],
     border-right: 10px solid transparent;
     border-left: 10px solid transparent;
 }
+
 .db-new-filters .tabs li.pointer:before {
     border-bottom: 9px solid $border-color;
     border-right: 9px solid transparent;
     border-left: 9px solid transparent;
 }
 
-.db-new-filters .tabs li a.sel, 
-.db-new-filters .tabs li a:hover, 
+.db-new-filters .tabs li a.sel,
+.db-new-filters .tabs li a:hover,
 .db-new-filters .tabs li a:active {
     color: $active;
 }
 
-.db-new-main-table table td, .db-new-main-table table thead tr.header-filter td, .alt, .db-requests .offers-left, input[type=search] {
+.db-new-main-table table td,
+.db-new-main-table table thead tr.header-filter td,
+.alt,
+.db-requests .offers-left,
+input[type=search] {
     border-top: 1px solid $background !important;
     border-bottom: 1px solid $background !important;
 }
@@ -413,7 +413,7 @@ input[type=search],
 /*#region Footer*/
 
 .site-footer {
-    background-color: #1D1F20;
+    background-color: $header-background; //#1D1F20;
 }
 
 .footer-package .footer-collapsibles:after {
@@ -421,7 +421,7 @@ input[type=search],
 }
 
 .site-footer {
-    border-top: 1px solid #373C3E;
+    border-top: 1px solid $header-background;
 }
 
 /*#endregion*/
@@ -592,6 +592,7 @@ input[type=search],
     background: $card-bg;
     border: 1px solid $border-color;
 }
+
 .earnings-package .withdraw-buttons-list .withdraw-button.disabled {
     border-color: var(--border-color);
     color: #b5b6ba;
