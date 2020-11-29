@@ -1,0 +1,16 @@
+@import 'lms';
+#MainContent_gvNotes_divRecord_0 {
+    background: $navigation !important;
+}
+#MainContent_gvNotes_lblTitle_0 {
+    font-size: 1.5em;
+    color: $text-heading !important;
+}
+.btn.btn-default, .btn.btn-secondary {
+    border-color: $border-color;
+    background: $background-hover;
+}
+#MainContent_btnSearch {
+    border-radius: 0px;
+    background-color: $active !important;
+}

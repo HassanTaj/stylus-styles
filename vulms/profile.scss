@@ -1,0 +1,32 @@
+@import 'lms';
+.m-dropdown.m-dropdown--header-bg-fill .m-dropdown__header 
+.m-dropdown .m-dropdown__wrapper .m-dropdown__body{   
+    background-color: $header-background  !important;
+}
+#lnkLogout:hover {
+    border: $border-color ;
+    background-color: $background-hover ;
+}
+#lnkLogout {
+    background-color: $header-background ;
+}
+.m-card-user.m-card-user--skin-dark .m-card-user__details .m-card-user__name {
+    color: $text-color ;
+}
+#MainContent_lblStdId , #MainContent_lblVuEmail
+.m-card-profile .m-card-profile__details .m-card-profile__name
+.m-portlet__body{
+    color: $text-color 
+}
+.m-form .m-form__group .form-control-label
+.m-form .m-form__group .col-form-label
+.m-form .m-form__group > label{
+    color: $text-heading 
+}
+.form-control[readonly]
+.form-control{
+    border-color: $border-color ;
+}
+.m-card-profile .m-card-profile__pic .m-card-profile__pic-wrapper{
+        border-color: $border-color ;
+}

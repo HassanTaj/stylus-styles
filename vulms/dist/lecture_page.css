@@ -1,0 +1,34 @@
+/* #region variables */
+p .nav.nav-pills .nav-link .nav.nav-tabs .nav-link {
+  color: #949494;
+}
+
+.col-12 {
+  color: #f8f9fa;
+}
+
+a:hover {
+  color: #1fd0b6;
+}
+
+a {
+  color: #cdcdc8;
+}
+
+.nav-tabs .nav-link.active .nav-tabs .nav-item.show .nav-link {
+  background-color: #1dbf73;
+  border: 1px solid #373b3e;
+}
+
+#lbtnPrevLesson #lbtnNextLesson .la.la-ellipsis-h.m--font-brand .m-portlet__nav-link.btn.btn-secondary.m-btn.m-btn--air.m-btn--icon.m-btn--icon-only.m-btn--pill {
+  border: 1px solid #373b3e !important;
+}
+
+.m-portlet .m-portlet__head {
+  border-bottom: 1px solid #373b3e;
+}
+
+#lblTotalViews {
+  color: #cdcdc8;
+}
+/* #endregion */

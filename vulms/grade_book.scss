@@ -1,0 +1,21 @@
+@import 'lms';
+.DarkBorder {
+    border:1px solid $border-color !important;
+}
+.row.m-row--col-separator-xl > div {
+    border-right: 1px solid $border-color;
+}
+.nav-tabs{
+    border-bottom:1px solid $border-color;
+}
+
+.m-table.m-table--head-bg-brand thead th{
+    border: none;
+    background:$table-headings;
+}
+
+
+.table.table-striped tbody th, .table.table-striped tbody td {
+    background-color: $card-bg;
+    color: $text-color;
+}

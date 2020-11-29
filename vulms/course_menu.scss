@@ -1,0 +1,27 @@
+@import 'lms';
+.table th
+.table td{
+    border-top: 1px solid $border-color;
+}
+#MainContent_lblInstructor 
+.m-section .m-section__content
+.m-subheader .m-subheader__title{
+color: $text-color;
+}
+.m-nav.m-nav--hover-bg .m-nav__item:hover > .m-nav__link 
+.m-nav.m-nav--hover-bg .m-nav__item.m-nav__item--active > .m-nav__link{
+background-color: $background-hover;
+}
+.m-nav-bg.active{
+background-color: $border-color;
+}
+.m-portlet{    
+background-color: $background;
+}
+.bg-secondary {
+background-color: $background-hover !important;
+}
+
+#MainContent_lblInstructorQualification{
+  color: $text-color;
+}

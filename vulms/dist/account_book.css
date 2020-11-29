@@ -1,0 +1,26 @@
+/* #region variables */
+.divSetting {
+  border: 1px solid #373b3e;
+}
+
+.tblRightBorder .row .rightBorder {
+  background-color: #161718;
+  border-right: 1px solid #373b3e;
+}
+
+.pb-sm-3, .py-sm-3 {
+  background: #161718;
+}
+
+.Accounttbl .row .divborder {
+  background-color: #332D7F;
+}
+
+.LSDiv {
+  background: #A0710C !important;
+}
+
+.table-bordered th, .table-bordered td {
+  border: 1px solid #373b3e;
+}
+/* #endregion */

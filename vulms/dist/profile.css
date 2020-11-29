@@ -1,0 +1,34 @@
+/* #region variables */
+.m-dropdown.m-dropdown--header-bg-fill .m-dropdown__header .m-dropdown .m-dropdown__wrapper .m-dropdown__body {
+  background-color: #181A1B !important;
+}
+
+#lnkLogout:hover {
+  border: #373b3e;
+  background-color: #161718;
+}
+
+#lnkLogout {
+  background-color: #181A1B;
+}
+
+.m-card-user.m-card-user--skin-dark .m-card-user__details .m-card-user__name {
+  color: #949494;
+}
+
+#MainContent_lblStdId, #MainContent_lblVuEmail .m-card-profile .m-card-profile__details .m-card-profile__name .m-portlet__body {
+  color: #949494;
+}
+
+.m-form .m-form__group .form-control-label .m-form .m-form__group .col-form-label .m-form .m-form__group > label {
+  color: #cdcdc8;
+}
+
+.form-control[readonly] .form-control {
+  border-color: #373b3e;
+}
+
+.m-card-profile .m-card-profile__pic .m-card-profile__pic-wrapper {
+  border-color: #373b3e;
+}
+/* #endregion */

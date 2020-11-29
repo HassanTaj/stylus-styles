@@ -1,0 +1,23 @@
+/* #region variables */
+.DarkBorder {
+  border: 1px solid #373b3e !important;
+}
+
+.row.m-row--col-separator-xl > div {
+  border-right: 1px solid #373b3e;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #373b3e;
+}
+
+.m-table.m-table--head-bg-brand thead th {
+  border: none;
+  background: #332D7F;
+}
+
+.table.table-striped tbody th, .table.table-striped tbody td {
+  background-color: #181A1B;
+  color: #949494;
+}
+/* #endregion */

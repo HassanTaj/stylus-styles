@@ -1,0 +1,29 @@
+@import 'lms';
+
+.m-accordion.m-accordion--bordered .m-accordion__item .m-accordion__item-head.collapsed
+ .m-accordion.m-accordion--default .m-accordion__item .m-accordion__item-head.collapsed{
+    background-color:  $background;
+}
+.m-accordion.m-accordion--bordered .m-accordion__item .m-accordion__item-head
+.m-accordion.m-accordion--bordered .m-accordion__item .m-accordion__item-head:hover
+.m-accordion.m-accordion--default .m-accordion__item .m-accordion__item-head
+.m-accordion.m-accordion--default .m-accordion__item .m-accordion__item-head:hover{
+    background-color:  $background-hover;
+}
+
+.m-accordion.m-accordion--bordered .m-accordion__item
+.m-accordion.m-accordion--default .m-accordion__item{
+    border: 1px solid  $border-color !important;
+
+}
+
+#MainContent_btnReadMore {
+    color:  $text-color;
+    border: 1px solid  $border-color;
+    background-color:  $background-hover;
+}
+
+.m-accordion__item-content {
+    color:  $text-color;
+    background-color:  $background;
+}

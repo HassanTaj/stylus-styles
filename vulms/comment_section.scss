@@ -1,0 +1,35 @@
+@import 'lms';
+.tab-content.p-3 {
+    border: 1px solid  $border-color !important;
+}
+#txtQuestion {
+    color:  $text-color  ;
+    background-color:  $background !important;
+    border:1px solid  $border-color !important;
+}
+.m-messenger .m-messenger__form .m-messenger__form-attachment {
+    color: rgb(205, 201, 194);
+    background-color: rgb(28, 30, 31);
+}
+.m-messenger .m-messenger__form .m-messenger__form-attachment:hover{
+    color: rgb(205, 201, 194);
+    background-color:  $background-hover  ;
+}
+.fa.fa-microphone.text-dark
+.fa.fa-image.text-dark
+.la.la-send.text-dark{
+    color: rgb(205, 201, 194) !important;
+}
+.toggle-handle {
+    background-color:  $background  ;
+}
+.btn.btn-info.toggle-off {
+    background-color: #0763AA;
+}
+.m-widget3__info > div {
+    background-color:  $background-hover   !important;
+    border: 1px solid  $border-color  ;
+}
+div > .m-widget3__body.m--margin-20, .m-widget3__text{
+    color:  $text-color  ;
+}

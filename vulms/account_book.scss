@@ -1,0 +1,24 @@
+@import 'lms';
+.divSetting {
+    border: 1px solid  $border-color  ;
+}
+
+.tblRightBorder .row .rightBorder{
+    background-color:  $background-hover  ;
+    border-right: 1px solid  $border-color  ;
+
+}
+.pb-sm-3, .py-sm-3{
+    background:  $background-hover  ;
+}
+.Accounttbl .row .divborder{
+    background-color:  $table-headings  ;
+}
+
+
+.LSDiv{
+    background: #A0710C !important;
+}
+.table-bordered th, .table-bordered td{
+    border: 1px solid  $border-color  ;
+}

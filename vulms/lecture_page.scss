@@ -1,0 +1,36 @@
+@import 'lms';
+p
+.nav.nav-pills .nav-link
+.nav.nav-tabs .nav-link{
+    color: $text-color ;
+}
+.col-12{
+    color: $light ;    
+}
+a:hover {
+    color: $text-azure ;
+}
+a {
+    color: $text-heading ;
+}
+
+.nav-tabs .nav-link.active
+.nav-tabs .nav-item.show .nav-link{
+    background-color: $active ;
+    border: 1px solid $border-color ;
+}
+
+#lbtnPrevLesson
+#lbtnNextLesson
+.la.la-ellipsis-h.m--font-brand
+.m-portlet__nav-link.btn.btn-secondary.m-btn.m-btn--air.m-btn--icon.m-btn--icon-only.m-btn--pill{
+    border: 1px solid $border-color  !important;
+}
+
+.m-portlet .m-portlet__head {
+    border-bottom: 1px solid $border-color ;
+}
+
+#lblTotalViews {
+    color: $text-heading ;
+}

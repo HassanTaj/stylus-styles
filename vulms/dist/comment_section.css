@@ -1,0 +1,42 @@
+/* #region variables */
+.tab-content.p-3 {
+  border: 1px solid #373b3e !important;
+}
+
+#txtQuestion {
+  color: #949494;
+  background-color: #1D1F20 !important;
+  border: 1px solid #373b3e !important;
+}
+
+.m-messenger .m-messenger__form .m-messenger__form-attachment {
+  color: #cdc9c2;
+  background-color: #1c1e1f;
+}
+
+.m-messenger .m-messenger__form .m-messenger__form-attachment:hover {
+  color: #cdc9c2;
+  background-color: #161718;
+}
+
+.fa.fa-microphone.text-dark .fa.fa-image.text-dark .la.la-send.text-dark {
+  color: #cdc9c2 !important;
+}
+
+.toggle-handle {
+  background-color: #1D1F20;
+}
+
+.btn.btn-info.toggle-off {
+  background-color: #0763AA;
+}
+
+.m-widget3__info > div {
+  background-color: #161718 !important;
+  border: 1px solid #373b3e;
+}
+
+div > .m-widget3__body.m--margin-20, .m-widget3__text {
+  color: #949494;
+}
+/* #endregion */

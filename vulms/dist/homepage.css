@@ -1,0 +1,31 @@
+/* #region variables */
+.alert.m-alert--air:not(.m-alert--outline) {
+  color: #949494;
+  background: #20123A;
+}
+
+.m-body .m-content .m-subheader {
+  background-color: #1D1F20;
+}
+
+.m-stack.m-stack--general.m-stack--ver > .m-stack__item {
+  background-color: #282a3c;
+}
+
+.h2 {
+  color: #fff;
+}
+
+.m-scroll-top--shown .m-scroll-top {
+  background-color: #1D1F20;
+}
+
+#MainContent_gvCourseList_lblInstructorQualification_1 #MainContent_gvCourseList_lblInstructorQualification_2 .m-widget19 .m-widget19__content .m-widget19__username {
+  font-size: 12px;
+  color: #949494;
+}
+
+.m-nav-sticky {
+  background: #161718;
+}
+/* #endregion */

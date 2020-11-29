@@ -1,0 +1,34 @@
+@import 'lms';
+.m-login.m-login--1 
+.m-login__aside {
+    background-color: $background-hover;
+}
+.form-control{
+    color: $text-color;
+    background-color: $background; 
+}
+.has-danger .input-group-text
+.has-danger .form-control{
+    border-color: $border-color ;
+}
+#ibtnLogin {
+    background-color: $breakpoint-xs;
+}
+.m-link{
+    color : $text-color ;
+}
+.m-footer{
+    box-shadow : none !important;
+    background-color: $navigation ;
+}
+.m-grid.m-grid--hor:not(.m-grid--desktop):not(.m-grid--desktop-and-tablet):not(.m-grid--tablet):not(.m-grid--tablet-and-mobile):not(.m-grid--mobile) > .m-grid__item.m-grid__item--fluid {
+    height:100%;
+    width: -moz-available;
+    background-color: $background-hover  !important;
+
+}
+.pt-2
+.py-2 {
+    font-size: 15px;
+    color: $text-color ;
+}

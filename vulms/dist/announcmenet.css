@@ -1,0 +1,24 @@
+/* #region variables */
+.m-accordion.m-accordion--bordered .m-accordion__item .m-accordion__item-head.collapsed .m-accordion.m-accordion--default .m-accordion__item .m-accordion__item-head.collapsed {
+  background-color: #1D1F20;
+}
+
+.m-accordion.m-accordion--bordered .m-accordion__item .m-accordion__item-head .m-accordion.m-accordion--bordered .m-accordion__item .m-accordion__item-head:hover .m-accordion.m-accordion--default .m-accordion__item .m-accordion__item-head .m-accordion.m-accordion--default .m-accordion__item .m-accordion__item-head:hover {
+  background-color: #161718;
+}
+
+.m-accordion.m-accordion--bordered .m-accordion__item .m-accordion.m-accordion--default .m-accordion__item {
+  border: 1px solid #373b3e !important;
+}
+
+#MainContent_btnReadMore {
+  color: #949494;
+  border: 1px solid #373b3e;
+  background-color: #161718;
+}
+
+.m-accordion__item-content {
+  color: #949494;
+  background-color: #1D1F20;
+}
+/* #endregion */

@@ -1,0 +1,38 @@
+/* #region variables */
+.m-login.m-login--1 .m-login__aside {
+  background-color: #161718;
+}
+
+.form-control {
+  color: #949494;
+  background-color: #1D1F20;
+}
+
+.has-danger .input-group-text .has-danger .form-control {
+  border-color: #373b3e;
+}
+
+#ibtnLogin {
+  background-color: 0;
+}
+
+.m-link {
+  color: #949494;
+}
+
+.m-footer {
+  box-shadow: none !important;
+  background-color: #282a3c;
+}
+
+.m-grid.m-grid--hor:not(.m-grid--desktop):not(.m-grid--desktop-and-tablet):not(.m-grid--tablet):not(.m-grid--tablet-and-mobile):not(.m-grid--mobile) > .m-grid__item.m-grid__item--fluid {
+  height: 100%;
+  width: -moz-available;
+  background-color: #161718 !important;
+}
+
+.pt-2 .py-2 {
+  font-size: 15px;
+  color: #949494;
+}
+/* #endregion */

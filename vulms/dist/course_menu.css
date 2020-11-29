@@ -1,0 +1,29 @@
+/* #region variables */
+.table th .table td {
+  border-top: 1px solid #373b3e;
+}
+
+#MainContent_lblInstructor .m-section .m-section__content .m-subheader .m-subheader__title {
+  color: #949494;
+}
+
+.m-nav.m-nav--hover-bg .m-nav__item:hover > .m-nav__link .m-nav.m-nav--hover-bg .m-nav__item.m-nav__item--active > .m-nav__link {
+  background-color: #161718;
+}
+
+.m-nav-bg.active {
+  background-color: #373b3e;
+}
+
+.m-portlet {
+  background-color: #1D1F20;
+}
+
+.bg-secondary {
+  background-color: #161718 !important;
+}
+
+#MainContent_lblInstructorQualification {
+  color: #949494;
+}
+/* #endregion */
