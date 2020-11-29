@@ -3,6 +3,9 @@
 .m-dropdown .m-dropdown__wrapper .m-dropdown__body{   
     background-color: $header-background  !important;
 }
+.m-dropdown__body {
+    background-color: $header-background !important;
+}
 #lnkLogout:hover {
     border: $border-color ;
     background-color: $background-hover ;

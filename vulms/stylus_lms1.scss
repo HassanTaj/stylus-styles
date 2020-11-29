@@ -88,6 +88,7 @@ body {
 .m-dropdown .m-dropdown__wrapper .m-dropdown__body{   
     background-color:  $header-background !important;
 }
+
 #lnkLogout:hover {
     border:  $border-color;
     background-color:  $background-hover;
@@ -111,7 +112,9 @@ body {
 .form-control[readonly], .form-control{
     border-color:  $border-color;
 }
-
+.m-dropdown__body {
+    background-color: $header-background !important;
+}
 .m-card-profile .m-card-profile__pic .m-card-profile__pic-wrapper{
         border-color:  $border-color;
 }
