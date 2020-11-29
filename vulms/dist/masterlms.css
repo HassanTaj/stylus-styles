@@ -136,6 +136,10 @@ body {
   border-color: #373b3e;
 }
 
+.m-dropdown__body {
+  background-color: #181A1B !important;
+}
+
 .m-card-profile .m-card-profile__pic .m-card-profile__pic-wrapper {
   border-color: #373b3e;
 }
@@ -413,6 +417,10 @@ a {
 }
 
 .m-dropdown.m-dropdown--header-bg-fill .m-dropdown__header .m-dropdown .m-dropdown__wrapper .m-dropdown__body {
+  background-color: #181A1B !important;
+}
+
+.m-dropdown__body {
   background-color: #181A1B !important;
 }
 
