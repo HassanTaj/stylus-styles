@@ -3,6 +3,7 @@
     --background:#162228;
     --card:#1a2a33;
 	--hover:#213b48;
+	--hover-nav:#015f8e;
 	--border-color:rgb(17 26 31);
 }
 /*Dark Scrollbar*/
@@ -1223,7 +1224,10 @@ li-icon[type=linkedin-logo] svg {
     color: rgb(250 250 250 / 45%)!important;
 }
 .global-nav__primary-link:active, .global-nav__primary-link:active .global-nav__primary-link-text, .global-nav__primary-link:hover, .global-nav__primary-link:hover .global-nav__primary-link-text, a.global-nav__primary-link:active, a.global-nav__primary-link:active .global-nav__primary-link-text, a.global-nav__primary-link:hover, a.global-nav__primary-link:hover .global-nav__primary-link-text {
-    color: #015f8e!important;
+    color: var(--hover-nav)!important;
+}
+.global-nav__primary-link--active, .global-nav__primary-link--active .global-nav__primary-link-text, .global-nav__primary-link--active:visited, a.global-nav__primary-link--active, a.global-nav__primary-link--active .global-nav__primary-link-text, a.global-nav__primary-link--active:visited {
+    color: var(--hover-nav)!important;
 }
 .global-nav__primary-link-text {
     color: rgb(239 239 239 / 60%)!important;
