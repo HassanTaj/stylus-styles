@@ -30,6 +30,7 @@ body {
 .standalone-nav-bar, .standalone-nav-bar>div .categories-menu-package {
     background-color: $header-background;
 }
+
 .standalone-nav-bar {
     border-bottom: 1px solid $border-color;
 }
@@ -39,15 +40,19 @@ body {
     border-color: $border-color;
     color: #cdcdc8;
 }
+
 .seller-card .user-stats li.vacation {
     border-top: 1px solid $border-color;
 }
+
 .seller-card .user-stats {
     border-top: 1px solid $background;
 }
+
 .seller-tests-wrapper .tests-wrapper h3.title {
     color: $text-color;
 }
+
 .user-page-perseus .seller-profile {
     border: 1px solid $border-color;
     background: $card-bg;
@@ -266,7 +271,7 @@ h5,
 .message-box .message-uploader-container,
 .action-offer,
 .search-bar-package form input {
-    background-color: #1D1F20;
+    background-color: var(--background);
 }
 
 .route,
@@ -320,7 +325,7 @@ h5,
 
 /*#region Request Page*/
 .mp-box {
-    background-color: #1D1F20;
+    background-color: var(--background);
 }
 
 .date,
@@ -413,7 +418,7 @@ input[type=search] {
 /*#region Footer*/
 
 .site-footer {
-    background-color: $header-background; //#1D1F20;
+    background-color: $header-background;
 }
 
 .footer-package .footer-collapsibles:after {

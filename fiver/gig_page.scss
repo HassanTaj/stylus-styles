@@ -55,7 +55,7 @@
 }
 
 .seller-card, .status-filter-bar, .fiverr-learn, .mp-seller-profile article, .user-page-reviews-package > :nth-child(n), .gig-card-base:not(.list-view-card), .mp-seller-profile .form-thin article, .seller-card .seller-link, .gig-card-base h3, .reviews-package .review-description p, .reviews-package .country .country-name, .mp-seller-profile .form-thin article .inner-row.social-account ul li.is-selected, .mp-seller-profile .form-thin article .inner-row.social-account ul li.is-selected span, .mp-seller-profile .form-thin article .inner-row.skills .skill-bubble, .mp-seller-profile .form-thin article .inner-row.skills .recommendation-wrapper .skill-bubble, .mp-seller-profile .form-thin article .inner-row .items-list .title {
-    background-color: $background;
+    background-color: $card-bg;
     border-color: rgb(55, 59, 62);
     color: #cdcdc8;
 }
