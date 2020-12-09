@@ -1217,7 +1217,7 @@ li-icon[type=linkedin-logo] svg {
 }
 
 .global-nav {
-    background-color: var(--card)!important;
+    background-color: var(--background)!important;
     border-bottom: 1px solid var(--color-border-faint)!important;
 }
 .global-nav__primary-link, .global-nav__primary-link:visited, a.global-nav__primary-link, a.global-nav__primary-link:visited {
