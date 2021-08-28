@@ -76,6 +76,17 @@ body {
   color: #949494;
   background-color: #1D1F20;
 }
+.form-control:focus {   
+    background-color: var(--navigation);
+    border-color: #c2c7f3;
+}
+.form-control[type=text]:focus {
+    color: var(--text-color);
+}
+
+.has-danger .form-control {
+    border-color: var(--border-color);
+}
 
 .has-danger .input-group-text .has-danger .form-control {
   border-color: #373b3e;
@@ -104,7 +115,9 @@ body {
   font-size: 15px;
   color: #949494;
 }
-
+.alert.m-alert--outline.alert-danger {
+    background-color: var(--background);
+}
 /*#endregion*/
 /*#region profile*/
 .m-dropdown.m-dropdown--header-bg-fill .m-dropdown__header .m-dropdown .m-dropdown__wrapper .m-dropdown__body {
@@ -158,7 +171,13 @@ body {
 .m-stack.m-stack--general.m-stack--ver > .m-stack__item {
   background-color: #282a3c;
 }
-
+.m-portlet,
+.m-portlet{
+    box-shadow: 10px 10px 5px var(--border-color) !important;
+}
+.m-portlet__body-separator {
+    border-bottom: 1px solid var(--border-color) !important;
+}
 .h2 {
   color: #fff;
 }
@@ -181,7 +200,6 @@ body {
 .m-accordion.m-accordion--bordered .m-accordion__item .m-accordion__item-head.collapsed .m-accordion.m-accordion--default .m-accordion__item .m-accordion__item-head.collapsed {
   background-color: #1D1F20;
 }
-
 .m-accordion.m-accordion--bordered .m-accordion__item .m-accordion__item-head .m-accordion.m-accordion--bordered .m-accordion__item .m-accordion__item-head:hover .m-accordion.m-accordion--default .m-accordion__item .m-accordion__item-head .m-accordion.m-accordion--default .m-accordion__item .m-accordion__item-head:hover {
   background-color: #161718;
 }
@@ -194,6 +212,9 @@ body {
   color: #949494;
   border: 1px solid #373b3e;
   background-color: #161718;
+}
+div#tblAnnouncement >p {
+    color: var(--text-color);
 }
 
 .m-accordion__item-content {
@@ -311,6 +332,10 @@ body {
 
 /*#endregion*/
 /*#region Content/Lecture Page*/
+
+a#MainContent_rptIndex_lbtnViewLesson_191{
+    color:#5867dd;
+}
 p .nav.nav-pills .nav-link .nav.nav-tabs .nav-link {
   color: #949494;
 }
